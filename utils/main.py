@@ -66,3 +66,5 @@ if __name__ == '__main__':
         os.system(f'python3 ./utils/subconverter/subconvert.py --subscription \"../../temp\" --target \"base64\" --output \"../../{share_file}\"')
         os.system(f'python3 ./utils/subconverter/subconvert.py --subscription \"../../temp\" --target \"clash\" --output \"../../{share_file_clash}\"')
         os.remove('./temp')
+
+      
