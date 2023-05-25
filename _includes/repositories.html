@@ -1,0 +1,28 @@
+{% comment %}
+    @param {boolean} bottom - bottom will render <hr> 
+{% endcomment %}
+
+{% if site.repositories %}
+<div class="container">
+	<div class="row">
+		<div class="col-md-3 col-xs-2 sidebar hidden-print">
+			<ul class="nav navbar-nav">
+				<li>
+					{% assign categories = site.categories | sort %}
+		  			{% for category in categories %}
+						{% if category[0] != "blog" %}
+							<span class="nav-header" style="font-size: 22px; color: #1e0010">{{ category[0] }}</span>
+							<ul class="nav">
+								{% assign posts = category[1]| sort: 'title' %}
+								{% for post in posts %}
+								<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+								{% endfor %}
+							</ul>
+						{% endif %}
+		  			{% endfor %}
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+{% endif %}
