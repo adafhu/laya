@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 
-from datetime import timedelta, datetime
+from datetime import datetime
 import json
 import re
 import requests
-from requests.adapters import HTTPAdapter
-from urllib.parse import quote
 
 class update():
     def __init__(self,config={'list_file': './sub/sub_list.json'}):
