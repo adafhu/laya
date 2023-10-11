@@ -3,6 +3,7 @@
 from datetime import datetime
 import json, re
 import requests
+from requests.adapters import HTTPAdapter
 
 
 class update():
@@ -25,10 +26,25 @@ class update():
         #else:
             #url_updated = False
         #return url_updated
-        
-    def url_updated(self,url):
-        url_updated = True 
+
+    def url_updated(url):  # 判断远程远程链接是否已经更新
+        s = requests.Session()
+        s.mount('http://', HTTPAdapter(max_retries=2))
+        s.mount('https://', HTTPAdapter(max_retries=2))
+        try:
+            resp = s.get(url, timeout=4)
+            status = resp.status_code
+        except Exception:
+            status = 404
+        if status == 200:
+            url_updated = True
+        else:
+            url_updated = False
         return url_updated
+    
+    #def url_updated(self,url):
+        #url_updated = True 
+        #return url_updated
         
     def update_main(self):
         for sub in self.raw_list:
