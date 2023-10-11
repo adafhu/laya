@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
-from datetime import datetime
-import json, re
+from datetime import timedelta, datetime
+import json
+import re
 import requests
 from requests.adapters import HTTPAdapter
-
+from urllib.parse import quote
 
 class update():
     def __init__(self,config={'list_file': './sub/sub_list.json'}):
@@ -13,19 +14,6 @@ class update():
             raw_list = json.load(f)
             self.raw_list = raw_list
         self.update_main()
-
-    #def url_updated(self,url): # 判断远程远程链接是否已经更新
-        #s = requests.Session()
-        #try:
-            #resp = s.get(url, timeout=2)
-            #status = resp.status_code
-        #except Exception:
-            #status = 404
-        #if status == 200:
-            #url_updated = True
-        #else:
-            #url_updated = False
-        #return url_updated
 
     def url_updated(url):  # 判断远程远程链接是否已经更新
         s = requests.Session()
