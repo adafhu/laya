@@ -50,8 +50,8 @@ if __name__ == '__main__':
         other_country_proxies = convert('../../temp','base64',{'deduplicate':False,'include':'','exclude':'US|HK|SG|JP|TW|KR|美|港|坡|日|台|韩|CA|加'})
         area_proxies = {
             'east_asia': [east_asian_proxies, 45],
-            'north_america': [north_america_proxies, 25],
-            'other_area':[other_country_proxies, 25]
+            'north_america': [north_america_proxies, 90],
+            'other_area':[other_country_proxies, 90]
         }
         share_proxies = []
         for area in area_proxies.keys():
