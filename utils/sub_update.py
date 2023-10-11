@@ -57,7 +57,7 @@ class update():
 
     def change_date(self,id,current_url):
         if id == 40:
-            new_url = datetime.today().strftime('https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.txt')
+            new_url = datetime.today().strftime('https://clashnode.com/wp-content/uploads/%Y/%m/%Y%m%d.txt')
         if id == 36:
             today = datetime.today().strftime('%Y%m%d')
             this_month = datetime.today().strftime('%Y%m')
@@ -65,11 +65,13 @@ class update():
             url_end = '.txt'
             new_url = url_front + this_month + '/' + today + url_end
         if id == 0:
-            new_url = datetime.today().strftime('https://clashnode.com/wp-content/uploads/%Y/%m/%Y%m%d.txt')
+            new_url = datetime.today().strftime('https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.txt')
         if id == 1:
-            new_url = datetime.today().strftime('https://freenode.me/wp-content/uploads/%Y/%m/%d8.txt')
+            new_url = datetime.today().strftime('https://freenode.me/wp-content/uploads/%Y/%m/%m%d.txt')
         if id == 13:
             new_url = datetime.today().strftime('https://hiclash.com/wp-content/uploads/%Y/%m/%Y%m%d.txt')
+        if id == 12:
+            new_url = datetime.today().strftime('https://oneclash.cc/wp-content/uploads/%Y/%m/%Y%m%d.txt')
         #if id == 0:
             #today = datetime.today().strftime('%m%d')
             #url_front = 'https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/'
