@@ -13,19 +13,23 @@ class update():
             self.raw_list = raw_list
         self.update_main()
 
-    def url_updated(self,url): # 判断远程远程链接是否已经更新
-        s = requests.Session()
-        try:
-            resp = s.get(url, timeout=2)
-            status = resp.status_code
-        except Exception:
-            status = 404
-        if status == 200:
-            url_updated = True
-        else:
-            url_updated = False
+    #def url_updated(self,url): # 判断远程远程链接是否已经更新
+        #s = requests.Session()
+        #try:
+            #resp = s.get(url, timeout=2)
+            #status = resp.status_code
+        #except Exception:
+            #status = 404
+        #if status == 200:
+            #url_updated = True
+        #else:
+            #url_updated = False
+        #return url_updated
+        
+    def url_updated(self,url):
+        url_updated = True 
         return url_updated
-
+        
     def update_main(self):
         for sub in self.raw_list:
             id = sub['id']
