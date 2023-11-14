@@ -75,6 +75,8 @@ class update():
             new_url = datetime.today().strftime('https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.txt')
         if id == 1:
             new_url = datetime.today().strftime('https://freenode.me/wp-content/uploads/%Y/%m/%m%d.txt')
+        if id == 7:
+            new_url = datetime.today().strftime('https://freenode.openrunner.net/uploads/%Y/%m/%d-v2ray.txt')
         if id == 13:
             new_url = datetime.today().strftime('https://hiclash.com/wp-content/uploads/%Y/%m/%Y%m%d.txt')
         if id == 12:
