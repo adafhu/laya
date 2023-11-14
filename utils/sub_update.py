@@ -65,12 +65,14 @@ class update():
     def change_date(self,id,current_url):
         if id == 40:
             new_url = datetime.today().strftime('https://clashnode.com/wp-content/uploads/%Y/%m/%Y%m%d.txt')
-        if id == 36:
+        #if id == 36:
             today = datetime.today().strftime('%Y%m%d')
             this_month = datetime.today().strftime('%Y%m')
             url_front = 'https://nodefree.org/dy/'
             url_end = '.txt'
             new_url = url_front + this_month + '/' + today + url_end
+        if id == 36:
+            new_url = datetime.today().strftime('https://nodefree.org/dy/%Y/%m/%Y%m%d.txt')
         if id == 0:
             new_url = datetime.today().strftime('https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.txt')
         if id == 1:
