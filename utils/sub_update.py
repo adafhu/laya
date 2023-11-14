@@ -69,6 +69,49 @@ class update():
             file.write(updated_list)
             file.close()
 
+
+    def update_airports(id, current_url):
+        if id == 17:
+            # try:
+            s = requests.Session()
+            s.mount('http://', HTTPAdapter(max_retries=2))
+            s.mount('https://', HTTPAdapter(max_retries=2))
+            # sublist = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
+            #     'https://raw.githubusercontent.com/RenaLio/Mux2sub/main/sub_list', timeout=4).text.split("\n")))))
+
+            # air_free = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
+            #     'https://raw.githubusercontent.com/rxsweet/proxies/main/sub/sources/sublist_mining.txt', timeout=4).text.split("\n")))))
+            # air_mining = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
+            #     'https://raw.githubusercontent.com/rxsweet/proxies/main/sub/sources/subList_dynamic.txt', timeout=4).text.split("\n")))))
+
+            # air_free1 = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
+            #     'https://raw.githubusercontent.com/cdddbc/getAirport/main/config/sublist_free', timeout=4).text.split("\n")))))
+            # air_mining1 = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
+            #     'https://raw.githubusercontent.com/cdddbc/getAirport/main/config/sublist_mining', timeout=4).text.split("\n")))))
+
+            sublist = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
+                'https://raw.githubusercontent.com/adafhu/hayiya/master/Others', timeout=4).text.split("\n")))))
+
+
+            jlist = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
+                'https://raw.githubusercontent.com/adafhu/CollectAir/master/sub_list', timeout=4).text.split("\n")))))
+
+
+
+            # sublist.extend(air_free)
+            # sublist.extend(air_mining)
+            # sublist.extend(air_free1)
+            sublist.extend(jlist)
+
+            # urllist = list(map(lambda x: quote(x, safe=""), urllist))
+            # urllist = list(filter(lambda x: str(x).__contains__(
+            #    "getafreenode.com") == False, urllist))
+            new_url = "|".join(list(set(sublist)))
+            # except Exception as e:
+            #     print(e)
+        return new_url
+    
+    
     def change_date(self,id,current_url):
         if id == 40:
             new_url = datetime.today().strftime('https://clashnode.com/wp-content/uploads/%Y/%m/%Y%m%d.txt')
