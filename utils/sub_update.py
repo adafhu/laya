@@ -54,7 +54,7 @@ class update():
                             sub['url'] = new_url
                             print(f'ID{id} url updated to {new_url}\n')
                     elif sub['update_method'] == 'update_airports':
-                                new_url = update_url.update_airports(
+                                new_url = self.update_airports(
                                     id, current_url)
                                 if new_url == current_url:
                                     print(f'No available update for ID{id}\n')
