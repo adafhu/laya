@@ -98,7 +98,7 @@ class update():
             return current_url
 
     def update_airports(id, current_url):
-        if id == 5:
+        if id == 17:
             # try:
             s = requests.Session()
             s.mount('http://', HTTPAdapter(max_retries=2))
