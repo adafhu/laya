@@ -5,17 +5,19 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 KR 2 → tg@nicevpn123, server: 103.214.68.57, port: 10003, type: trojan, password: 6x8HcghsjS, sni: yes998.chickenkiller.com, skip-cert-verify: true}
-  - {name: "🇯🇵 %�\x11�%�P���JP-3.112.15.141-115%%�", server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
   - {name: 🇸🇬 SG 1 → tg@nicevpn123, server: 8.210.231.146, port: 1146, type: ss, cipher: aes-256-gcm, password: jmtgsmW40R}
   - {name: 🇭🇰 香港2|@ripaojiedian, server: 202.64.1.167, port: 443, type: trojan, password: e04823e1c68e40a3ab04aba1fc3ba3a1, sni: www.gpt123.one, skip-cert-verify: false}
-  - {name: 🇰🇷 KR-3.36.61.58-5605, server: 3.36.61.58, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 SG-103.172.116.79-5773, server: 103.172.116.79, port: 9044, type: ss, cipher: aes-256-cfb, password: KBGjZYcy4SyRShmA}
+  - {name: 🇰🇷 KR-211.201.169.70-1103, server: 211.201.169.70, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 🇸🇬 SG-103.172.116.103-5678, server: 103.172.116.103, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL}
   - {name: 🇰🇷 韩国2|@ripaojiedian, server: 125.141.26.7, port: 2020, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 🇰🇷 韩国特殊|@ripaojiedian, server: 13.125.209.221, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 SG-47.128.76.42-0238, server: 47.128.76.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇨🇳 TW-36.228.229.227-1161, server: download1tw.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-tw1.windowsupdatea.com, skip-cert-verify: false}
-  - {name: 🇰🇷 KR-43.202.52.245-0231, server: 43.202.52.245, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇭🇰 HK-8.217.93.104-2473, server: 8.217.93.104, port: 443, type: vmess, uuid: dcd70249-06fa-4fe7-aaed-cbba86ac125b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sptufp5n3o19imic.iwebsocket.com}}}
+  - {name: 🇨🇳 TW-36.228.229.227-1159, server: 36.228.229.227, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-tw1.windowsupdatea.com, skip-cert-verify: false}
   - {name: 🇭🇰 HK-203.198.16.214-1101, server: download2hkt.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-hkt2.windowsupdatea.com, skip-cert-verify: false}
+  - {name: 🇸🇬 SG-54.255.224.197-5645, server: 54.255.224.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇰🇷 KR-43.202.52.245-0231, server: 43.202.52.245, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 SG-47.128.76.42-0238, server: 47.128.76.42, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇰🇷 KR-43.201.5.168-0143, server: 43.201.5.168, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
   - {name: 🇰🇷 KR-64.110.87.97-0186, server: UNLK1.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN, port: 22452, type: trojan, password: 3a1ba041-af5f-45d4-9c1a-fe0817a086c9, sni: 13-231-155-134.nhost.00cdn.com, skip-cert-verify: false}
   - {name: 🇨🇳 TW-61.228.157.179-1156, server: b22.ntbq.dynu.net, port: 443, type: vmess, uuid: 4727ad0a-4b52-4b01-bb36-8b43ef15d11c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: b22.ntbq.dynu.net}}}
@@ -47,186 +49,185 @@ proxies:
   - {name: 🇨🇳 TW-61.228.183.148-1157, server: nbq13.ntbq.dynu.net, port: 443, type: vmess, uuid: 4727ad0a-4b52-4b01-bb36-8b43ef15d11c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: nbq13.ntbq.dynu.net}}}
   - {name: 🇭🇰 HK-203.198.16.190-1102, server: 203.198.16.190, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-hkt1.windowsupdatea.com, skip-cert-verify: false}
   - {name: 🇭🇰 HK-203.198.16.190-1099, server: download1hkt.windowsupdatea.com, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-hkt1.windowsupdatea.com, skip-cert-verify: false}
-  - {name: 🇯🇵 JP-52.195.236.85-0135, server: 52.195.236.85, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇨🇳 _TW_台湾->🇺🇸_US_美国, server: 107.167.182.230, port: 80, type: vmess, uuid: efcb7d7c-c582-46f5-eeff-0e553342528d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /tg@hkaa0, headers: {Host: br.gy.youxuan-1.66688888.xyz}}}
-  - {name: 🇺🇸 _US_美国 2, server: www.velvetmountain.shop, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.shop}}}
-  - {name: 🇺🇸 US 193 → tg@nicevpn123, server: 156.146.62.160, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+  - {name: 🇯🇵 JP-52.195.236.85-0135ss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1Y3A5WjNpV25KWjI@205.134.180.151443#🇺🇸 US 76 → tg@nicevpn123, server: 52.195.236.85, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 US 225 → tg@nicevpn123, server: www.velvetmountain.xyz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.xyz}}}
+  - {name: 🇺🇸 US 115 → tg@nicevpn123, server: 156.146.62.160, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+  - {name: 🇺🇸 US 160 → tg@nicevpn123, server: series-a2-mec.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c}
+  - {name: 🇺🇸 US 113 → tg@nicevpn123, server: java.ct.arvancode.eu.Org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA}
+  - {name: 🇺🇸 US 112 → tg@nicevpn123, server: jseyu.arvancode.eu.org, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
+  - {name: 🇺🇸 US 208 → tg@nicevpn123, server: 5.188.6.8, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
   - {name: 🇨🇦 CA 1 → tg@nicevpn123, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 US 10 → tg@nicevpn123, server: 5.188.6.8, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇺🇸 US 33 → tg@nicevpn123, server: 154.47.20.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks}
-  - {name: 🇺🇸 US 74 → tg@nicevpn123, server: cold-dawn-9246.fly.dev, port: 443, type: vmess, uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm, headers: {Host: cold-dawn-9246.fly.dev}}}
-  - {name: 🇺🇸 US 229 → tg@nicevpn123, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, skip-cert-verify: true}
-  - {name: 🇺🇸 US-38.54.104.184-0803, server: 38.54.104.184, port: 18808, type: ss, cipher: aes-256-gcm, password: wwq6Xo5gJ8}
-  - {name: 🇺🇸 US 171 → tg@nicevpn123, server: 205.185.125.200, port: 11451, type: vmess, uuid: 165bdbb6-3fd0-4d1a-e6fb-0e5cd2a0154f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US 219 → tg@nicevpn123, server: annie50.ceoiii.com, port: 36801, type: vmess, uuid: c0ad0b4b-5372-3ab8-9d43-5f8022a0f1ec, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: annie50.ceoiii.com}}}
-  - {name: 🇺🇸 US-38.121.43.65-9432, server: 38.121.43.65, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 US-38.121.43.142-10206, server: 38.121.43.142, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 🇺🇸 US-38.68.134.9-8813, server: 38.68.134.9, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 US-38.68.135.18-9651, server: 38.68.135.18, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 US-38.68.134.85-9814, server: 38.68.134.85, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 US-38.75.136.135-10211, server: 38.75.136.135, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 US-38.107.226.49-10247, server: 38.107.226.49, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 US-38.121.43.51-8802, server: 38.121.43.51, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇺🇸 US-38.121.43.97-9431, server: 38.121.43.97, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇸 US-38.54.104.184-0758, server: 38.54.104.184, port: 18808, type: ss, cipher: aes-256-gcm, password: wwq6Xo5gJ8}
+  - {name: 🇺🇸 US 88 → tg@nicevpn123, server: 129.151.164.152, port: 55600, type: vmess, uuid: e30f8588-2555-48b8-c354-c8e63f57232d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 美国5|@ripaojiedian, server: 129.80.151.246, port: 40059, type: vmess, uuid: 1b359f51-72df-4435-81df-b92cf75262d9, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 US 130 → tg@nicevpn123, server: 205.185.125.200, port: 11451, type: vmess, uuid: 165bdbb6-3fd0-4d1a-e6fb-0e5cd2a0154f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US 218 → tg@nicevpn123, server: annie50.ceoiii.com, port: 36801, type: vmess, uuid: c0ad0b4b-5372-3ab8-9d43-5f8022a0f1ec, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: annie50.ceoiii.com}}}
   - {name: 🇺🇸 US-142.202.48.43-1434, server: 142.202.48.43, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 🇺🇸 US-38.107.226.146-9435, server: 38.107.226.146, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 🇺🇸 美国1|@ripaojiedian, server: cloudflare.cfgo.cc, port: 80, type: vmess, uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: wap.hostmjj.com}}}
-  - {name: 🇺🇸 US-80.92.205.112-1170, server: 80.92.205.112, port: 443, type: vmess, uuid: 4c90ba75-230b-4f8b-bbff-8efa0eb0415f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: "🇺🇸 9,18,19|美国1|@ripaojiedian", server: cloudflare.cfgo.cc, port: 80, type: vmess, uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: wap.hostmjj.com}}}
-  - {name: 🇺🇸 US-167.88.61.175-1263, server: 167.88.61.175, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 🇺🇸 _US_美国->🇫🇷_FR_法国, server: 172.67.130.140, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
-  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3, server: 198.41.204.209, port: 8080, type: vmess, uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm, headers: {Host: nest-emily-healing-h.trycloudflare.com}}}
-  - {name: 🇺🇸 美国2|@ripaojiedian, server: 172.67.186.4, port: 8080, type: vmess, uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm, headers: {Host: nest-emily-healing-h.trycloudflare.com}}}
-  - {name: 🇨🇦 _CR_哥斯达黎加->🇨🇦_CA_加拿大, server: 190.93.246.147, port: 8080, type: vmess, uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm, headers: {Host: bibliographic-sword-sequence-advertisers.trycloudflare.com}}}
-  - {name: 🇺🇸 _US_美国->🇨🇦_CA_加拿大, server: 141.101.123.137, port: 8080, type: vmess, uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm, headers: {Host: larger-marketing-amounts-skin.trycloudflare.com}}}
-  - {name: 🇺🇸 _CA_加拿大->🇺🇸_US_美国, server: 23.227.39.45, port: 8080, type: vmess, uuid: 0e5da13a-b148-4889-9d72-ad1d9d5aa9ad, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 0e5da13a-b148-4889-9d72-ad1d9d5aa9ad-vm, headers: {Host: widescreen-instruction-breakdown-postage.trycloudflare.com}}}
-  - {name: 🇺🇸 _US_美国 6, server: 198.41.205.19, port: 8080, type: vmess, uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: 41eeccfd-18e6-40b3-933d-c7000120ec2c-vm, headers: {Host: larger-marketing-amounts-skin.trycloudflare.com}}}
-  - {name: 🇺🇸 US 71 → tg@nicevpn123, server: 104.21.31.244, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US 60 → tg@nicevpn123, server: 104.21.236.62, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 61 → tg@nicevpn123, server: 104.21.239.75, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 62 → tg@nicevpn123, server: 104.21.227.36, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 63 → tg@nicevpn123, server: 104.21.227.38, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 64 → tg@nicevpn123, server: 38.14.107.249, port: 38100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US 65 → tg@nicevpn123, server: 172.64.88.15, port: 8080, type: vmess, uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US 66 → tg@nicevpn123, server: 104.21.238.91, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 68 → tg@nicevpn123, server: 104.21.238.90, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 69 → tg@nicevpn123, server: 104.21.231.57, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 6 → tg@nicevpn123, server: 104.21.225.206, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US 72 → tg@nicevpn123, server: 104.21.228.21, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 73 → tg@nicevpn123, server: 104.21.235.58, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 58 → tg@nicevpn123, server: 104.21.1.28, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US 75 → tg@nicevpn123, server: afrhms16v.bestxray.buzz, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: afrhms16v.bestxray.buzz}}}
-  - {name: 🇺🇸 US 76 → tg@nicevpn123, server: 104.21.225.69, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US 77 → tg@nicevpn123, server: 172.67.229.25, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US 78 → tg@nicevpn123, server: 104.21.238.72, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 79 → tg@nicevpn123, server: 104.21.225.137, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US 8 → tg@nicevpn123, server: 104.21.228.44, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 80 → tg@nicevpn123, server: 18.218.239.120, port: 36326, type: ss, cipher: chacha20-ietf-poly1305, password: H6cSTf8vDbVH1cpnrAxFj2}
-  - {name: 🇺🇸 US 82 → tg@nicevpn123, server: 104.21.229.45, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 83 → tg@nicevpn123, server: 104.21.228.22, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 84 → tg@nicevpn123, server: 104.21.225.25, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 85 → tg@nicevpn123, server: 104.21.236.81, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 86 → tg@nicevpn123, server: 104.21.229.29, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 87 → tg@nicevpn123, server: 104.21.235.59, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 88 → tg@nicevpn123, server: 104.21.234.74, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 89 → tg@nicevpn123, server: 104.21.229.28, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 9 → tg@nicevpn123, server: 104.21.229.27, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 90 → tg@nicevpn123, server: 104.21.232.60, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 57 → tg@nicevpn123, server: 104.21.227.39, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 92 → tg@nicevpn123, server: 104.21.231.35, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 93 → tg@nicevpn123, server: 104.21.236.83, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 94 → tg@nicevpn123, server: 104.21.225.26, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 95 → tg@nicevpn123, server: 104.21.228.40, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 52 → tg@nicevpn123, server: 172.67.68.246, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US 97 → tg@nicevpn123, server: urnxewzvh.site, port: 443, type: vmess, uuid: 06195b5b-3815-4a07-96f7-47eefbb1b143, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: urnxewzvh.site}}}
-  - {name: 🇺🇸 US 98 → tg@nicevpn123, server: 104.21.226.11, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 99 → tg@nicevpn123, server: 104.21.231.55, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 91 → tg@nicevpn123, server: 104.21.231.38, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 62 → tg@nicevpn123, server: for-irancell.outline-vpn.cloud, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: for-irancell.outline-vpn.cloud}}}
+  - {name: 🇺🇸 US 64 → tg@nicevpn123, server: 104.21.227.15, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 66 → tg@nicevpn123, server: 104.21.31.244, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US 67 → tg@nicevpn123, server: 104.21.225.184, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US 68 → tg@nicevpn123, server: 104.21.238.93, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 69 → tg@nicevpn123, server: 104.21.234.72, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 7 → tg@nicevpn123, server: 104.21.224.22, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 70 → tg@nicevpn123, server: 104.21.229.49, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 73 → tg@nicevpn123, server: 104.21.237.67, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 74 → tg@nicevpn123, server: 104.21.238.74, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 75 → tg@nicevpn123, server: 104.21.225.235, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 _US_美国->🇩🇪_DE_德国, server: 104.21.230.51, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: a.prapt5.ir}}}
+  - {name: 🇺🇸 US 78 → tg@nicevpn123, server: 104.21.235.57, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 8 → tg@nicevpn123, server: 104.21.227.17, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 80 → tg@nicevpn123, server: 172.67.65.91, port: 8080, type: vmess, uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US 81 → tg@nicevpn123, server: 104.21.227.19, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 82 → tg@nicevpn123, server: 172.67.170.13, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US 83 → tg@nicevpn123, server: 104.21.231.56, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 84 → tg@nicevpn123, server: 172.67.64.161, port: 8080, type: vmess, uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US 85 → tg@nicevpn123, server: 104.21.66.23, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US 86 → tg@nicevpn123, server: 104.21.239.97, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 87 → tg@nicevpn123, server: 104.21.235.56, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 61 → tg@nicevpn123, server: 38.11.74.146, port: 38000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US 89 → tg@nicevpn123, server: 104.21.225.8, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 9 → tg@nicevpn123, server: 104.21.225.45, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US 90 → tg@nicevpn123, server: 104.21.234.70, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 156 → tg@nicevpn123, server: us.blazeppn.info, port: 443, type: trojan, password: xxoo, skip-cert-verify: true}
+  - {name: 🇺🇸 US 92 → tg@nicevpn123, server: 104.21.12.86, port: 8880, type: vmess, uuid: ae3e6ab7-144a-4ecc-981d-603ea73bc8af, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US 93 → tg@nicevpn123, server: 205.134.180.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9Bvkw5aupNy8}
+  - {name: 🇺🇸 US 94 → tg@nicevpn123, server: 104.21.234.53, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 95 → tg@nicevpn123, server: 104.21.230.32, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 96 → tg@nicevpn123, server: 152.67.218.38, port: 443, type: vmess, uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US 97 → tg@nicevpn123, server: 104.21.228.43, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 98 → tg@nicevpn123, server: 172.64.128.180, port: 8080, type: vmess, uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US 99 → tg@nicevpn123, server: 104.21.224.4, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
   - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6, server: server31.beheshtbaneh.com, port: 8880, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}}
   - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9, server: 104.21.82.183, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}}
   - {name: 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
-  - {name: 🇺🇸 US 51 → tg@nicevpn123, server: 104.21.225.5, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 5 → tg@nicevpn123, server: 104.21.226.32, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 48 → tg@nicevpn123, server: 104.21.228.41, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 47 → tg@nicevpn123, server: 104.21.225.6, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 46 → tg@nicevpn123, server: 104.21.66.23, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US 45 → tg@nicevpn123, server: 108.162.192.243, port: 8080, type: vmess, uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US 44 → tg@nicevpn123, server: 38.14.107.247, port: 38100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US 43 → tg@nicevpn123, server: 104.21.237.69, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 42 → tg@nicevpn123, server: 104.21.233.46, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 41 → tg@nicevpn123, server: 108.162.198.95, port: 8080, type: vmess, uuid: 41eeccfd-18e6-40b3-933d-c7000120ec2c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇺🇸 US 40 → tg@nicevpn123, server: 104.21.231.36, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 4 → tg@nicevpn123, server: 104.21.225.9, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 39 → tg@nicevpn123, server: 104.21.239.98, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 🇺🇸 US 38 → tg@nicevpn123, server: 104.21.224.4, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
-  - {name: 4Nika-17843, server: hms182.glweidf.sbs, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: glweidf.sbs}}}
-  - {name: 4Nika-18199, server: www.blueberrywindow.online, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.blueberrywindow.online}}}
-  - {name: 4Nika-1179, server: 24.199.103.101, port: 35678, type: ss, cipher: aes-256-gcm, password: DuE6Gplaap}
-  - {name: 4Nika-14067, server: 104.21.46.63, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: marien.motorcycles}}}
-  - {name: 4Nika-14083, server: 104.21.51.208, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: nina.bond}}}
-  - {name: 4Nika-12690, server: 104.21.15.36, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}}
-  - {name: 4Nika-17488, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: food.zhaal.ir}}}
-  - {name: 4Nika-407, server: 18.175.24.89, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA}
-  - {name: 4Nika-4045, server: 3.9.86.152, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: false}
-  - {name: 4Nika-490, server: 52.142.190.86, port: 15268, type: ss, cipher: chacha20-ietf-poly1305, password: i6mY38K2mrXCNGC2RXApMH}
-  - {name: 4Nika-15218, server: 162.251.62.115, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: BE 1 → tg@nicevpn123, server: 57.128.173.202, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇫🇷 FR 3 → tg@nicevpn123, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 4Nika-437, server: 94.131.9.42, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: afa22bb1050134b8}
-  - {name: 4Nika-4121, server: 3.73.182.248, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: false}
+  - {name: 🇺🇸 US-18.189.191.191-2449, server: 18.189.191.191, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.miwan.co.uk, skip-cert-verify: false}
+  - {name: 🇺🇸 US 60 → tg@nicevpn123, server: 104.21.224.21, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 59 → tg@nicevpn123, server: 104.21.236.84, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US-198.2.219.242-5339, server: 198.2.219.242, port: 37000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.41912208.xyz}}}
+  - {name: 🇺🇸 US 58 → tg@nicevpn123, server: 104.21.236.64, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 57 → tg@nicevpn123, server: 104.21.236.80, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 56 → tg@nicevpn123, server: 104.21.228.21, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 54 → tg@nicevpn123, server: 104.21.229.28, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 53 → tg@nicevpn123, server: 104.21.234.74, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 52 → tg@nicevpn123, server: 104.21.90.218, port: 2086, type: vmess, uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US 51 → tg@nicevpn123, server: 104.21.224.20, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 50 → tg@nicevpn123, server: 104.21.235.59, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 5 → tg@nicevpn123, server: 104.21.228.40, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 49 → tg@nicevpn123, server: 104.21.229.29, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 48 → tg@nicevpn123, server: 104.21.225.27, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 47 → tg@nicevpn123, server: 104.21.235.55, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 45 → tg@nicevpn123, server: 104.21.225.183, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US 44 → tg@nicevpn123, server: 172.67.68.246, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US 43 → tg@nicevpn123, server: 172.67.152.200, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US-38.54.185.111-1357, server: 38.54.185.111, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: www.73664999.xyz}}}
+  - {name: 🇺🇸 US-38.91.101.159-1437, server: 38.91.101.159, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇺🇸 US 42 → tg@nicevpn123, server: 104.21.236.81, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US-89.187.179.192-1166, server: 89.187.179.192, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇺🇸 US-47.88.87.39-1359, server: 47.88.87.39, port: 80, type: vmess, uuid: 18351862-d953-4ab9-afae-4998dcd56f8b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US-89.187.181.179-1167, server: 89.187.181.179, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇺🇸 US 41 → tg@nicevpn123, server: 104.21.225.25, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US-34.209.235.189-0017, server: 34.209.235.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 US-35.93.149.201-0211, server: 35.93.149.201, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇺🇸 US-47.76.163.94-0289, server: n1700029696.izwhvan.cn, port: 443, type: vmess, uuid: 1f574157-76f0-488c-9fbb-5b5b375ba9a4, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: n1700029696.izwhvan.cn}}}
+  - {name: 🇺🇸 US 40 → tg@nicevpn123, server: 104.21.228.22, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US 4 → tg@nicevpn123, server: 104.21.230.31, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048"}}
+  - {name: 🇺🇸 US-103.35.190.65-0042, server: 103.35.190.65, port: 443, type: vmess, uuid: ed531ebe-4971-47f9-a881-636d0b101a45, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US-47.254.121.68-1244, server: 47.254.121.68, port: 80, type: vmess, uuid: c778fc8d-ce2f-4cd3-a949-1b99091c41da, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇺🇸 US-141.193.68.81-1278, server: 141.193.68.81, port: 443, type: trojan, password: 29ea82cf-f956-42b2-a5dc-35feea39e7ff, sni: glc-us3.windowsupdatea.com, skip-cert-verify: false}
+  - {name: 🇨🇦 _CA_加拿大, server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: teams.microsoft.com}}}
+  - {name: 🇺🇸 _US_美国->🇳🇱_NL_荷兰, server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/1696251522438, headers: {Host: www.42077230.xyz}}}
+  - {name: 4Nika-15326, server: 172.67.152.214, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: meroiy.icu}}}
+  - {name: 4Nika-13945, server: 104.21.51.208, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: nina.bond}}}
+  - {name: RELAY-172.67.217.198-0066, server: www.velvetmountain.xyz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.velvetmountain.xyz}}}
+  - {name: 4Nika-3613, server: 54.250.243.212, port: 14369, type: trojan, password: azPdsmzcFuMP, sni: www.myethblog.com, skip-cert-verify: false}
+  - {name: 4Nika-415, server: 51.143.138.95, port: 13288, type: ss, cipher: chacha20-ietf-poly1305, password: XFt4a7C3cE7qMz7weyyEGI}
+  - {name: 4Nika-13928, server: 104.21.46.63, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: marien.motorcycles}}}
+  - {name: 4Nika-18040, server: maggiy.shop, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: maggiy.shop}}}
+  - {name: 4Nika-493, server: 51.142.171.225, port: 58488, type: ss, cipher: chacha20-ietf-poly1305, password: jGU17fCkQji96xFBe1APSf}
+  - {name: 4Nika-1426, server: 51.195.149.115, port: 45816, type: ss, cipher: aes-256-gcm, password: KkDzY101Oe}
+  - {name: 🇳🇱 NL 3 → tg@nicevpn123, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks}
+  - {name: 4Nika-107, server: 35.176.19.196, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ}
+  - {name: 🇫🇷 FR 4 → tg@nicevpn123, server: 51.159.111.208, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 4Nika-4084, server: 13.42.98.109, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: false}
+  - {name: 🇳🇱 NL 2 → tg@nicevpn123, server: 51.15.27.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 4Nika-4138, server: 3.9.97.178, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: false}
+  - {name: 🇬🇧 GB 4 → tg@nicevpn123, server: 77.72.5.113, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 🇬🇧 GB 5 → tg@nicevpn123, server: 51.38.64.145, port: 2086, type: vmess, uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇩🇪 DE 1 → tg@nicevpn123, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV}
+  - {name: 4Nika-4135, server: 3.78.92.107, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: false}
+  - {name: 4Nika-1156, server: 162.19.25.207, port: 34232, type: ss, cipher: aes-256-gcm, password: 3b9ktZGztC}
+  - {name: 4Nika-15856, server: 172.86.76.207, port: 12277, type: vmess, uuid: f1bf8962-3719-4c00-8495-c5483aea0ef0, alterId: 0, cipher: auto, tls: false}
+  - {name: 4Nika-17779, server: glweidf.cfd, port: 443, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkws, headers: {Host: glweidf.cfd}}}
+  - {name: 4Nika-507, server: 52.56.47.189, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg}
+  - {name: 4Nika-4130, server: 3.73.182.248, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: false}
+  - {name: 4Nika-14725, server: 154.85.1.128, port: 41002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/271624282113, headers: {Host: www.42077230.xyz}}}
+  - {name: 4Nika-14423, server: 138.2.44.211, port: 20081, type: vmess, uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973, alterId: 64, cipher: auto, tls: false}
   - {name: 🇬🇧 GB 13 → tg@nicevpn123, server: 51.142.173.103, port: 51899, type: ss, cipher: chacha20-ietf-poly1305, password: gcpVehVytslepmkHHRLXYx}
-  - {name: 4Nika-67, server: 195.201.30.244, port: 5614, type: ss, cipher: chacha20-ietf-poly1305, password: 3--VIGPSL7RrGE5KkA-9Sg}
-  - {name: 4Nika-14847, server: 154.85.0.48, port: 41000, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/271624282113, headers: {Host: www.72281149.xyz}}}
-  - {name: 🇩🇪 DE-159.69.12.205-1134, server: 159.69.12.205, port: 25365, type: ss, cipher: aes-128-gcm, password: "TELEGRAM:@ZEDMODEON-TELEGRAM:@ZEDMODEON-TELEGRAM:@ZEDMODEON,TELEGRAM:@ZEDMODEON"}
-  - {name: 4Nika-613, server: 167.235.27.67, port: 38818, type: ss, cipher: aes-128-gcm, password: "TELEGRAM:@ZEDMODEON-TELEGRAM:@ZEDMODEON-TELEGRAM:@ZEDMODEON,TELEGRAM:@ZEDMODEON"}
-  - {name: 4Nika-14125, server: 104.21.83.10, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}}
-  - {name: 4Nika-494, server: 51.142.171.225, port: 58488, type: ss, cipher: chacha20-ietf-poly1305, password: jGU17fCkQji96xFBe1APSf}
-  - {name: AT 1 → tg@nicevpn123, server: 185.180.12.81, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 4Nika-2531, server: 217.114.212.26, port: 24278, type: ss, cipher: aes-256-gcm, password: tel-irn-vpn}
-  - {name: RELAY-104.21.46.66-0365, server: www.ywnouvbale.biz, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.ywnouvbale.biz}}}
-  - {name: 4Nika-18201, server: www.blueberrywindow.online, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.blueberrywindow.online}}}
-  - {name: 4Nika-4162, server: 51.21.142.154, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: false}
-  - {name: AF 1 → tg@nicevpn123, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 4Nika-17280, server: 61.228.159.193, port: 3278, type: vmess, uuid: 927d3649-6f6d-4111-a726-5fb16d5401bf, alterId: 0, cipher: auto, tls: false}
+  - {name: 4Nika-421, server: 51.143.138.80, port: 64507, type: ss, cipher: chacha20-ietf-poly1305, password: YJgPhpBF3wEoy3H5CxXyUS}
+  - {name: 4Nika-521, server: 51.11.104.69, port: 16550, type: ss, cipher: chacha20-ietf-poly1305, password: qFqqKf78FuMHnBqoxeWz4R}
+  - {name: 4Nika-2532, server: 217.114.212.26, port: 24278, type: ss, cipher: aes-256-gcm, password: tel-irn-vpn}
+  - {name: 4Nika-17516, server: 94.131.122.105, port: 80, type: vmess, uuid: 3b871117-3a4e-4df2-a8af-08ecc7db6887, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 4Nika-14893, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false}
+  - {name: 4Nika-15329, server: 172.67.155.82, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: kristin.makeup}}}
+  - {name: 🇷🇺 RU 5 → tg@nicevpn123, server: 217.30.10.70, port: 9044, type: ss, cipher: aes-256-cfb, password: KBGjZYcy4SyRShmA}
+  - {name: 🇩🇪 DE-159.69.12.205-1049, server: 159.69.12.205, port: 25365, type: ss, cipher: aes-128-gcm, password: "TELEGRAM:@ZEDMODEON-TELEGRAM:@ZEDMODEON-TELEGRAM:@ZEDMODEON,TELEGRAM:@ZEDMODEON"}
   - {name: RO 1 → tg@nicevpn123, server: 194.14.217.115, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 4Nika-70, server: 65.21.158.243, port: 5614, type: ss, cipher: chacha20-ietf-poly1305, password: 3--VIGPSL7RrGE5KkA-9Sg}
-  - {name: 4Nika-16278, server: 195.85.59.50, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /kellie.makeup/linkvws, headers: {Host: 8wccc4a94-term-4a94.ketowil344.workers.dev}}}
-  - {name: 4Nika-15455, server: 172.67.179.37, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: {path: linkvws, headers: {Host: octavi.cfd}}}
-  - {name: 4Nika-14454, server: 118ejob.ir, port: 80, type: vmess, uuid: 47d0805b-6b81-49f1-9813-776032d2c076, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: at1-vmess.sshmax.xyz}}}
-  - {name: 4Nika-2078, server: 91.149.238.8, port: 22192, type: ss, cipher: aes-256-gcm, password: d36b5bb1-fae7-4ddc-b023-1935f64e350b}
+  - {name: AT 1 → tg@nicevpn123, server: 185.180.12.81, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: AF 1 → tg@nicevpn123, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: BE 1 → tg@nicevpn123, server: 57.128.173.202, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 4Nika-14201, server: 103.160.204.38, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: food.zhaal.ir}}}
+  - {name: 4Nika-17098, server: 45.76.179.201, port: 80, type: vmess, uuid: ab8c009c-3ff5-40f0-83c4-43fae2d66639, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /SACHI}}
+  - {name: 4Nika-4166, server: 51.21.142.154, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: false}
+  - {name: 🇬🇧 GB 1 → tg@nicevpn123, server: 217.160.45.31, port: 8880, type: vmess, uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 4Nika-4106, server: 16.170.161.79, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: false}
   - {name: 4Nika-517, server: 92.38.171.215, port: 51348, type: ss, cipher: chacha20-ietf-poly1305, password: pxREQjgjPGjSKoXLEnt6nyzhZUhi7So1JlsSSRWYMi4M4iXD}
-  - {name: BA 1 → tg@nicevpn123, server: 185.164.35.9, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇩🇪 DE-80.92.204.106-0212, server: 80.92.204.106, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ}
-  - {name: 4Nika-17027, server: 45.137.155.195, port: 443, type: vmess, uuid: 49c76bcf-3a58-43df-b1d4-2bffe9ca03b5, alterId: 0, cipher: auto, tls: false}
-  - {name: 4Nika-15053, server: 167.179.111.237, port: 14935, type: vmess, uuid: e961894f-8e90-472f-98d3-09402e4be453, alterId: 0, cipher: auto, tls: false}
-  - {name: 4Nika-18207, server: www.coldstone.club, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.coldstone.club}}}
-  - {name: 4Nika-4170, server: 54.220.29.34, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.miwan.co.uk, skip-cert-verify: false}
-  - {name: 4Nika-2213, server: 216.39.250.78, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 4Nika-68, server: 217.195.200.44, port: 5614, type: ss, cipher: chacha20-ietf-poly1305, password: 3--VIGPSL7RrGE5KkA-9Sg}
-  - {name: 4Nika-18203, server: www.brightocean.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.brightocean.lol}}}
-  - {name: 4Nika-15942, server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇳 IN 1 → tg@nicevpn123, server: 180.149.44.120, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: ZA 1 → tg@nicevpn123, server: 41.203.4.34, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 4Nika-9, server: 45.8.146.32, port: 50370, type: ss, cipher: chacha20-ietf-poly1305, password: 4sZ69FNmAPosCBiD6MUryB}
-  - {name: 4Nika-81, server: 169.197.141.186, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: tvX1v#NSFP_LG_bJ}
-  - {name: 4Nika-14538, server: 138.2.44.211, port: 20081, type: vmess, uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973, alterId: 64, cipher: auto, tls: false}
-  - {name: 4Nika-16988, server: 38.54.97.205, port: 2612, type: vmess, uuid: d6d16f50-a1a2-5833-81df-939697b6844c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
-  - {name: 4Nika-15016, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false}
-  - {name: 4Nika-2077, server: 46.29.163.45, port: 11751, type: ss, cipher: aes-256-gcm, password: d36b5bb1-fae7-4ddc-b023-1935f64e350b}
-  - {name: 4Nika-672, server: 103.172.116.94, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr}
-  - {name: 4Nika-644, server: 103.172.116.90, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP}
-  - {name: KE 1 → tg@nicevpn123, server: 62.12.116.66, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 4Nika-16778, server: 212.192.12.231, port: 80, type: vmess, uuid: 1a6c9d53-122f-4fb0-a39d-e6e94b7bdfd4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 4Nika-14641, server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false}
-  - {name: 4Nika-14339, server: 103.160.204.38, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: food.zhaal.ir}}}
+  - {name: 4Nika-17834, server: dl1.doushimeng.com, port: 2082, type: vmess, uuid: d84608ad-908a-4313-956e-7c94190e7bc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-frsss5.nicehand.top}}}
+  - {name: 4Nika-15297, server: 172.66.47.7, port: 2052, type: vmess, uuid: 3fa6fff3-bc0a-4102-b53c-41130f490374, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoftvideo/HEAC?ed=2048", headers: {Host: de05-v6.ikuan.dev}}}
+  - {name: 🇫🇷 FR 3 → tg@nicevpn123, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 4Nika-15864, server: 172.99.190.12, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false}
+  - {name: 4Nika-14523, server: 140.83.63.38, port: 24445, type: vmess, uuid: 94c5ef37-4d82-49f9-c624-f01259374a17, alterId: 64, cipher: auto, tls: false}
+  - {name: 4Nika-17051, server: 45.137.155.195, port: 443, type: vmess, uuid: 49c76bcf-3a58-43df-b1d4-2bffe9ca03b5, alterId: 0, cipher: auto, tls: false}
+  - {name: 4Nika-16785, server: 213.35.113.150, port: 80, type: vmess, uuid: eaf5e01b-f27d-44cf-94ae-87196143eef9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 4Nika-614, server: 167.235.27.67, port: 38818, type: ss, cipher: aes-128-gcm, password: "TELEGRAM:@ZEDMODEON-TELEGRAM:@ZEDMODEON-TELEGRAM:@ZEDMODEON,TELEGRAM:@ZEDMODEON"}
+  - {name: 4Nika-17760, server: c12.twtc.dynu.net, port: 14431, type: vmess, uuid: 927d3649-6f6d-4111-a726-5fb16d5401bf, alterId: 0, cipher: auto, tls: false}
+  - {name: 4Nika-17823, server: de-cdn.ikuan.dev, port: 2052, type: vmess, uuid: 3fa6fff3-bc0a-4102-b53c-41130f490374, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/microsoftvideo/HEAC?ed=2048", headers: {Host: de05-v6.ikuan.dev}}}
+  - {name: AL-31.171.153.181-1073, server: 31.171.153.181, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 4Nika-2215, server: 216.39.250.78, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 4Nika-17835, server: dl3s.doushimeng.com, port: 2082, type: vmess, uuid: d84608ad-908a-4313-956e-7c94190e7bc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-de12.doushimeng.com}}}
+  - {name: 4Nika-524, server: 185.234.66.15, port: 37661, type: ss, cipher: chacha20-ietf-poly1305, password: qqmpwRuYpsJBUXnZzh0yjNb5vrsv9r9yE7mb0vSwzaw=}
+  - {name: 4Nika-15410, server: 172.67.196.112, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: kellie.makeup}}}
   - {name: 4Nika-119, server: 46.250.237.91, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: EaD2XSJgkVNjZsrrqelQ1s}
-  - {name: 4Nika-18090, server: sg3.socifiles.com, port: 80, type: vmess, uuid: 6a88afe0-d02b-11ee-85c0-1239d0255272, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmws, headers: {Host: sg3.socifiles.com}}}
-  - {name: 4Nika-17695, server: b23.ntbq.dynu.net, port: 5681, type: vmess, uuid: e2d318b6-52f6-4339-ae4d-19ccf28e24c7, alterId: 0, cipher: auto, tls: false}
-  - {name: VN-103.163.218.2-2810, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 4Nika-18015, server: nb24.ntbq.dynu.net, port: 3278, type: vmess, uuid: 927d3649-6f6d-4111-a726-5fb16d5401bf, alterId: 0, cipher: auto, tls: false}
-  - {name: NO 1 → tg@nicevpn123, server: 185.90.61.153, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 🇷🇺 RU 12 → tg@nicevpn123, server: 176.120.74.142, port: 443, type: vmess, uuid: 75695f5a-b6af-44f4-9983-ae250b53ff9c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 4Nika-1024, server: 194.116.173.21, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ}
-  - {name: 4Nika-18005, server: nb22.ntbq.dynu.net, port: 12002, type: vmess, uuid: 232c3a62-f299-4d70-9a97-8b5820b93f1a, alterId: 0, cipher: auto, tls: false}
-  - {name: PA-138.186.142.4-2716, server: 138.186.142.4, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 4Nika-18277, server: uk1.xv2ray.net, port: 80, type: vmess, uuid: 3b871117-3a4e-4df2-a8af-08ecc7db6887, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess, headers: {Host: uk1.xv2ray.net}}}
-  - {name: 4Nika-12502, server: 104.17.123.55, port: 8080, type: vmess, uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/qZTtpya?ed=2048", headers: {Host: pq.kmoljklj.top}}}
-  - {name: 4Nika-16260, server: 194.156.98.179, port: 80, type: vmess, uuid: 0855b410-0e96-4d0a-9b6e-80830edec462, alterId: 0, cipher: auto, tls: false}
-  - {name: 4Nika-16259, server: 194.15.115.202, port: 2082, type: vmess, uuid: 84a778e3-87f3-44b4-a96b-2962ae940778, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: ZA-129.232.129.156-1201, server: 129.232.129.156, port: 444, type: ss, cipher: chacha20-ietf-poly1305, password: DiPietyory}
-  - {name: 4Nika-15868, server: 172.67.229.36, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2, headers: {Host: ca6.tehme100.fun}}}
-  - {name: 4Nika-1128, server: 218.237.185.230, port: 54345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
-  - {name: 4Nika-3826, server: ca02.reami.us, port: 11002, type: trojan, password: ead190ad-51bf-4784-ab54-f4cc07f3e636, sni: ca02.reami.us, skip-cert-verify: true}
-  - {name: 4Nika-18296, server: us1.miaomiaowu-d.top, port: 61113, type: vmess, uuid: f51bf8b2-1891-3d86-89e2-2949e47c0f1d, alterId: 0, cipher: auto, tls: false}
-  - {name: 4Nika-17480, server: 94.131.96.137, port: 2082, type: vmess, uuid: 900fbb93-4dba-40c1-be96-9aef165a7c2e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 4Nika-17320, server: 74.119.193.64, port: 443, type: vmess, uuid: faa2d852-e7a4-40b3-a011-e028b8a21f3b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 🇬🇧 GB 17 → tg@nicevpn123, server: 77.72.5.113, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 4Nika-17600, server: cf.openxai.link, port: 8080, type: vmess, uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu1.openxai.link}}}
-  - {name: 4Nika-17711, server: c12.twtc.dynu.net, port: 14431, type: vmess, uuid: 927d3649-6f6d-4111-a726-5fb16d5401bf, alterId: 0, cipher: auto, tls: false}
-  - {name: 4Nika-1078, server: 23.90.128.82, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: AL-31.171.153.181-1155, server: 31.171.153.181, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
-  - {name: 4Nika-17479, server: 94.131.13.110, port: 80, type: vmess, uuid: d3e40d59-b53c-4f4e-8867-bb598be864d2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 4Nika-17487, server: 94.131.99.8, port: 47182, type: vmess, uuid: 81b2b630-8b6a-404f-b996-b12f13db5786, alterId: 0, cipher: auto, tls: false}
-  - {name: 4Nika-17497, server: 95.164.62.204, port: 80, type: vmess, uuid: 2ba1c86f-789f-4dd8-b52a-17d21164f2ba, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
-  - {name: 4Nika-17036, server: 45.144.2.113, port: 80, type: vmess, uuid: 71476bd3-1655-4028-8dd0-254c8a0b7d65, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 🇫🇷 FR 2 → tg@nicevpn123, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 4Nika-18325, server: tr01.h.csznet.eu.org, port: 40660, type: vmess, uuid: e040439f-53ec-4ed5-a0d3-8ea08be8f98b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /admin, headers: {Host: tr01.h.csznet.eu.org}}}
+  - {name: 4Nika-17743, server: b23.ntbq.dynu.net, port: 5681, type: vmess, uuid: e2d318b6-52f6-4339-ae4d-19ccf28e24c7, alterId: 0, cipher: auto, tls: false}
+  - {name: BA 1 → tg@nicevpn123, server: 185.164.35.9, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 4Nika-2085, server: 91.149.238.8, port: 22192, type: ss, cipher: aes-256-gcm, password: d36b5bb1-fae7-4ddc-b023-1935f64e350b}
+  - {name: 4Nika-14308, server: 103.75.185.221, port: 80, type: vmess, uuid: 9e5999ba-870a-46b1-8500-37c640371ec6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /bs}}
+  - {name: 🇮🇳 IN 1 → tg@nicevpn123, server: 180.149.44.120, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 4Nika-17755, server: bs5.loadingip.com, port: 80, type: vmess, uuid: 9e5999ba-870a-46b1-8500-37c640371ec6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /bs, headers: {Host: bs5.loadingip.com}}}
+  - {name: 4Nika-17012, server: 38.54.97.205, port: 2612, type: vmess, uuid: d6d16f50-a1a2-5833-81df-939697b6844c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/arki?ed=2048"}}
+  - {name: 4Nika-17756, server: bs1.loadingip.com, port: 80, type: vmess, uuid: 9e5999ba-870a-46b1-8500-37c640371ec6, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /bs, headers: {Host: bs1.loadingip.com}}}
+  - {name: 4Nika-17833, server: dl6.doushimeng.com, port: 2082, type: vmess, uuid: d84608ad-908a-4313-956e-7c94190e7bc4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /asdas, headers: {Host: cf-us5.doushimeng.free.hr}}}
+  - {name: 🇦🇪 _AE_阿联酋->🇬🇧_GB_英国, server: 94.140.0.110, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: food.zhaal.ir}}}
+  - {name: 4Nika-1025, server: 194.116.173.21, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ}
+  - {name: 🇬🇧 GB-51.143.138.174-3139, server: 51.143.138.174, port: 51984, type: ss, cipher: chacha20-ietf-poly1305, password: GObFzmq51F3dumomW5jXy0}
+  - {name: 4Nika-17525, server: 94.131.99.8, port: 47182, type: vmess, uuid: 81b2b630-8b6a-404f-b996-b12f13db5786, alterId: 0, cipher: auto, tls: false}
+  - {name: 4Nika-16781, server: 212.192.12.231, port: 80, type: vmess, uuid: 1a6c9d53-122f-4fb0-a39d-e6e94b7bdfd4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
+  - {name: 4Nika-17518, server: 94.131.96.137, port: 2082, type: vmess, uuid: 900fbb93-4dba-40c1-be96-9aef165a7c2e, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 4Nika-1054, server: 185.123.101.241, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 4Nika-644, server: 103.172.116.90, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP}
+  - {name: 4Nika-15124, server: 176.120.64.86, port: 2086, type: vmess, uuid: 80d17c37-5739-4597-a412-9747e0532d52, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: 4Nika-17613, server: cewcastlecdn2111.ikuan.dev, port: 2086, type: vmess, uuid: 3fa6fff3-bc0a-4102-b53c-41130f490374, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/update.microsoft.com?ed=2048", headers: {Host: us01-v6.pisces.eu.org}}}
+  - {name: 4Nika-17517, server: 94.131.13.110, port: 80, type: vmess, uuid: d3e40d59-b53c-4f4e-8867-bb598be864d2, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /vmess}}
+  - {name: CY 1 → tg@nicevpn123, server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: ZA 1 → tg@nicevpn123, server: 41.203.4.34, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: VN-103.163.218.2-1279, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: 4Nika-652, server: 213.183.63.69, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu}
+  - {name: 4Nika-2084, server: 46.29.163.45, port: 11751, type: ss, cipher: aes-256-gcm, password: d36b5bb1-fae7-4ddc-b023-1935f64e350b}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -242,17 +243,19 @@ proxy-groups:
   - name: 🤘 手动选择
     type: select
     proxies:
-      - 🇰🇷 KR 2 → tg@nicevpn123
-      - "🇯🇵 %�\x11�%�P���JP-3.112.15.141-115%%�"
       - 🇸🇬 SG 1 → tg@nicevpn123
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇰🇷 KR-3.36.61.58-5605
+      - 🇸🇬 SG-103.172.116.79-5773
+      - 🇰🇷 KR-211.201.169.70-1103
+      - 🇸🇬 SG-103.172.116.103-5678
       - 🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 SG-47.128.76.42-0238
       - 🇨🇳 TW-36.228.229.227-1161
-      - 🇰🇷 KR-43.202.52.245-0231
+      - 🇭🇰 HK-8.217.93.104-2473
+      - 🇨🇳 TW-36.228.229.227-1159
       - 🇭🇰 HK-203.198.16.214-1101
+      - 🇸🇬 SG-54.255.224.197-5645
+      - 🇰🇷 KR-43.202.52.245-0231
+      - 🇸🇬 SG-47.128.76.42-0238
       - 🇰🇷 KR-43.201.5.168-0143
       - 🇰🇷 KR-64.110.87.97-0186
       - 🇨🇳 TW-61.228.157.179-1156
@@ -284,186 +287,185 @@ proxy-groups:
       - 🇨🇳 TW-61.228.183.148-1157
       - 🇭🇰 HK-203.198.16.190-1102
       - 🇭🇰 HK-203.198.16.190-1099
-      - 🇯🇵 JP-52.195.236.85-0135
-      - 🇨🇳 _TW_台湾->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 US 193 → tg@nicevpn123
+      - 🇯🇵 JP-52.195.236.85-0135ss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1Y3A5WjNpV25KWjI@205.134.180.151443#🇺🇸 US 76 → tg@nicevpn123
+      - 🇺🇸 US 225 → tg@nicevpn123
+      - 🇺🇸 US 115 → tg@nicevpn123
+      - 🇺🇸 US 160 → tg@nicevpn123
+      - 🇺🇸 US 113 → tg@nicevpn123
+      - 🇺🇸 US 112 → tg@nicevpn123
+      - 🇺🇸 US 208 → tg@nicevpn123
       - 🇨🇦 CA 1 → tg@nicevpn123
-      - 🇺🇸 US 10 → tg@nicevpn123
-      - 🇺🇸 US 33 → tg@nicevpn123
-      - 🇺🇸 US 74 → tg@nicevpn123
-      - 🇺🇸 US 229 → tg@nicevpn123
-      - 🇺🇸 US-38.54.104.184-0803
-      - 🇺🇸 US 171 → tg@nicevpn123
-      - 🇺🇸 US 219 → tg@nicevpn123
-      - 🇺🇸 US-38.121.43.65-9432
-      - 🇺🇸 US-38.121.43.142-10206
-      - 🇺🇸 US-38.68.134.9-8813
-      - 🇺🇸 US-38.68.135.18-9651
-      - 🇺🇸 US-38.68.134.85-9814
-      - 🇺🇸 US-38.75.136.135-10211
-      - 🇺🇸 US-38.107.226.49-10247
-      - 🇺🇸 US-38.121.43.51-8802
-      - 🇺🇸 US-38.121.43.97-9431
+      - 🇺🇸 US-38.54.104.184-0758
+      - 🇺🇸 US 88 → tg@nicevpn123
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇺🇸 US 130 → tg@nicevpn123
+      - 🇺🇸 US 218 → tg@nicevpn123
       - 🇺🇸 US-142.202.48.43-1434
-      - 🇺🇸 US-38.107.226.146-9435
-      - 🇺🇸 美国1|@ripaojiedian
-      - 🇺🇸 US-80.92.205.112-1170
-      - 🇺🇸 9,18,19|美国1|@ripaojiedian
-      - 🇺🇸 US-167.88.61.175-1263
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇦 _CR_哥斯达黎加->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 US 71 → tg@nicevpn123
-      - 🇺🇸 US 60 → tg@nicevpn123
-      - 🇺🇸 US 61 → tg@nicevpn123
+      - 🇺🇸 US 91 → tg@nicevpn123
       - 🇺🇸 US 62 → tg@nicevpn123
-      - 🇺🇸 US 63 → tg@nicevpn123
       - 🇺🇸 US 64 → tg@nicevpn123
-      - 🇺🇸 US 65 → tg@nicevpn123
       - 🇺🇸 US 66 → tg@nicevpn123
+      - 🇺🇸 US 67 → tg@nicevpn123
       - 🇺🇸 US 68 → tg@nicevpn123
       - 🇺🇸 US 69 → tg@nicevpn123
-      - 🇺🇸 US 6 → tg@nicevpn123
-      - 🇺🇸 US 72 → tg@nicevpn123
+      - 🇺🇸 US 7 → tg@nicevpn123
+      - 🇺🇸 US 70 → tg@nicevpn123
       - 🇺🇸 US 73 → tg@nicevpn123
-      - 🇺🇸 US 58 → tg@nicevpn123
+      - 🇺🇸 US 74 → tg@nicevpn123
       - 🇺🇸 US 75 → tg@nicevpn123
-      - 🇺🇸 US 76 → tg@nicevpn123
-      - 🇺🇸 US 77 → tg@nicevpn123
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇺🇸 US 78 → tg@nicevpn123
-      - 🇺🇸 US 79 → tg@nicevpn123
       - 🇺🇸 US 8 → tg@nicevpn123
       - 🇺🇸 US 80 → tg@nicevpn123
+      - 🇺🇸 US 81 → tg@nicevpn123
       - 🇺🇸 US 82 → tg@nicevpn123
       - 🇺🇸 US 83 → tg@nicevpn123
       - 🇺🇸 US 84 → tg@nicevpn123
       - 🇺🇸 US 85 → tg@nicevpn123
       - 🇺🇸 US 86 → tg@nicevpn123
       - 🇺🇸 US 87 → tg@nicevpn123
-      - 🇺🇸 US 88 → tg@nicevpn123
+      - 🇺🇸 US 61 → tg@nicevpn123
       - 🇺🇸 US 89 → tg@nicevpn123
       - 🇺🇸 US 9 → tg@nicevpn123
       - 🇺🇸 US 90 → tg@nicevpn123
-      - 🇺🇸 US 57 → tg@nicevpn123
+      - 🇺🇸 US 156 → tg@nicevpn123
       - 🇺🇸 US 92 → tg@nicevpn123
       - 🇺🇸 US 93 → tg@nicevpn123
       - 🇺🇸 US 94 → tg@nicevpn123
       - 🇺🇸 US 95 → tg@nicevpn123
-      - 🇺🇸 US 52 → tg@nicevpn123
+      - 🇺🇸 US 96 → tg@nicevpn123
       - 🇺🇸 US 97 → tg@nicevpn123
       - 🇺🇸 US 98 → tg@nicevpn123
       - 🇺🇸 US 99 → tg@nicevpn123
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇺🇸 US-18.189.191.191-2449
+      - 🇺🇸 US 60 → tg@nicevpn123
+      - 🇺🇸 US 59 → tg@nicevpn123
+      - 🇺🇸 US-198.2.219.242-5339
+      - 🇺🇸 US 58 → tg@nicevpn123
+      - 🇺🇸 US 57 → tg@nicevpn123
+      - 🇺🇸 US 56 → tg@nicevpn123
+      - 🇺🇸 US 54 → tg@nicevpn123
+      - 🇺🇸 US 53 → tg@nicevpn123
+      - 🇺🇸 US 52 → tg@nicevpn123
       - 🇺🇸 US 51 → tg@nicevpn123
+      - 🇺🇸 US 50 → tg@nicevpn123
       - 🇺🇸 US 5 → tg@nicevpn123
+      - 🇺🇸 US 49 → tg@nicevpn123
       - 🇺🇸 US 48 → tg@nicevpn123
       - 🇺🇸 US 47 → tg@nicevpn123
-      - 🇺🇸 US 46 → tg@nicevpn123
       - 🇺🇸 US 45 → tg@nicevpn123
       - 🇺🇸 US 44 → tg@nicevpn123
       - 🇺🇸 US 43 → tg@nicevpn123
+      - 🇺🇸 US-38.54.185.111-1357
+      - 🇺🇸 US-38.91.101.159-1437
       - 🇺🇸 US 42 → tg@nicevpn123
+      - 🇺🇸 US-89.187.179.192-1166
+      - 🇺🇸 US-47.88.87.39-1359
+      - 🇺🇸 US-89.187.181.179-1167
       - 🇺🇸 US 41 → tg@nicevpn123
+      - 🇺🇸 US-34.209.235.189-0017
+      - 🇺🇸 US-35.93.149.201-0211
+      - 🇺🇸 US-47.76.163.94-0289
       - 🇺🇸 US 40 → tg@nicevpn123
       - 🇺🇸 US 4 → tg@nicevpn123
-      - 🇺🇸 US 39 → tg@nicevpn123
-      - 🇺🇸 US 38 → tg@nicevpn123
-      - 4Nika-17843
-      - 4Nika-18199
-      - 4Nika-1179
-      - 4Nika-14067
-      - 4Nika-14083
-      - 4Nika-12690
-      - 4Nika-17488
-      - 4Nika-407
-      - 4Nika-4045
-      - 4Nika-490
-      - 4Nika-15218
-      - BE 1 → tg@nicevpn123
-      - 🇫🇷 FR 3 → tg@nicevpn123
-      - 4Nika-437
-      - 4Nika-4121
+      - 🇺🇸 US-103.35.190.65-0042
+      - 🇺🇸 US-47.254.121.68-1244
+      - 🇺🇸 US-141.193.68.81-1278
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 4Nika-15326
+      - 4Nika-13945
+      - RELAY-172.67.217.198-0066
+      - 4Nika-3613
+      - 4Nika-415
+      - 4Nika-13928
+      - 4Nika-18040
+      - 4Nika-493
+      - 4Nika-1426
+      - 🇳🇱 NL 3 → tg@nicevpn123
+      - 4Nika-107
+      - 🇫🇷 FR 4 → tg@nicevpn123
+      - 4Nika-4084
+      - 🇳🇱 NL 2 → tg@nicevpn123
+      - 4Nika-4138
+      - 🇬🇧 GB 4 → tg@nicevpn123
+      - 🇬🇧 GB 5 → tg@nicevpn123
+      - 🇩🇪 DE 1 → tg@nicevpn123
+      - 4Nika-4135
+      - 4Nika-1156
+      - 4Nika-15856
+      - 4Nika-17779
+      - 4Nika-507
+      - 4Nika-4130
+      - 4Nika-14725
+      - 4Nika-14423
       - 🇬🇧 GB 13 → tg@nicevpn123
-      - 4Nika-67
-      - 4Nika-14847
-      - 🇩🇪 DE-159.69.12.205-1134
-      - 4Nika-613
-      - 4Nika-14125
-      - 4Nika-494
-      - AT 1 → tg@nicevpn123
-      - 4Nika-2531
-      - RELAY-104.21.46.66-0365
-      - 4Nika-18201
-      - 4Nika-4162
-      - AF 1 → tg@nicevpn123
+      - 4Nika-17280
+      - 4Nika-421
+      - 4Nika-521
+      - 4Nika-2532
+      - 4Nika-17516
+      - 4Nika-14893
+      - 4Nika-15329
+      - 🇷🇺 RU 5 → tg@nicevpn123
+      - 🇩🇪 DE-159.69.12.205-1049
       - RO 1 → tg@nicevpn123
-      - 4Nika-70
-      - 4Nika-16278
-      - 4Nika-15455
-      - 4Nika-14454
-      - 4Nika-2078
+      - AT 1 → tg@nicevpn123
+      - AF 1 → tg@nicevpn123
+      - BE 1 → tg@nicevpn123
+      - 4Nika-14201
+      - 4Nika-17098
+      - 4Nika-4166
+      - 🇬🇧 GB 1 → tg@nicevpn123
+      - 4Nika-4106
       - 4Nika-517
-      - BA 1 → tg@nicevpn123
-      - 🇩🇪 DE-80.92.204.106-0212
-      - 4Nika-17027
-      - 4Nika-15053
-      - 4Nika-18207
-      - 4Nika-4170
-      - 4Nika-2213
-      - 4Nika-68
-      - 4Nika-18203
-      - 4Nika-15942
-      - 🇮🇳 IN 1 → tg@nicevpn123
-      - ZA 1 → tg@nicevpn123
-      - 4Nika-9
-      - 4Nika-81
-      - 4Nika-14538
-      - 4Nika-16988
-      - 4Nika-15016
-      - 4Nika-2077
-      - 4Nika-672
-      - 4Nika-644
-      - KE 1 → tg@nicevpn123
-      - 4Nika-16778
-      - 4Nika-14641
-      - 4Nika-14339
+      - 4Nika-17834
+      - 4Nika-15297
+      - 🇫🇷 FR 3 → tg@nicevpn123
+      - 4Nika-15864
+      - 4Nika-14523
+      - 4Nika-17051
+      - 4Nika-16785
+      - 4Nika-614
+      - 4Nika-17760
+      - 4Nika-17823
+      - AL-31.171.153.181-1073
+      - 4Nika-2215
+      - 4Nika-17835
+      - 4Nika-524
+      - 4Nika-15410
       - 4Nika-119
-      - 4Nika-18090
-      - 4Nika-17695
-      - VN-103.163.218.2-2810
-      - 4Nika-18015
-      - NO 1 → tg@nicevpn123
-      - 🇷🇺 RU 12 → tg@nicevpn123
-      - 4Nika-1024
-      - 4Nika-18005
-      - PA-138.186.142.4-2716
-      - 4Nika-18277
-      - 4Nika-12502
-      - 4Nika-16260
-      - 4Nika-16259
-      - ZA-129.232.129.156-1201
-      - 4Nika-15868
-      - 4Nika-1128
-      - 4Nika-3826
-      - 4Nika-18296
-      - 4Nika-17480
-      - 4Nika-17320
-      - 🇬🇧 GB 17 → tg@nicevpn123
-      - 4Nika-17600
-      - 4Nika-17711
-      - 4Nika-1078
-      - AL-31.171.153.181-1155
-      - 4Nika-17479
-      - 4Nika-17487
-      - 4Nika-17497
-      - 4Nika-17036
+      - 🇫🇷 FR 2 → tg@nicevpn123
+      - 4Nika-18325
+      - 4Nika-17743
+      - BA 1 → tg@nicevpn123
+      - 4Nika-2085
+      - 4Nika-14308
+      - 🇮🇳 IN 1 → tg@nicevpn123
+      - 4Nika-17755
+      - 4Nika-17012
+      - 4Nika-17756
+      - 4Nika-17833
+      - 🇦🇪 _AE_阿联酋->🇬🇧_GB_英国
+      - 4Nika-1025
+      - 🇬🇧 GB-51.143.138.174-3139
+      - 4Nika-17525
+      - 4Nika-16781
+      - 4Nika-17518
+      - 4Nika-1054
+      - 4Nika-644
+      - 4Nika-15124
+      - 4Nika-17613
+      - 4Nika-17517
+      - CY 1 → tg@nicevpn123
+      - ZA 1 → tg@nicevpn123
+      - VN-103.163.218.2-1279
+      - 4Nika-652
+      - 4Nika-2084
   - name: 🏳️‍🌈 国家选择
     type: select
     proxies:
@@ -514,17 +516,19 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 KR 2 → tg@nicevpn123
-      - "🇯🇵 %�\x11�%�P���JP-3.112.15.141-115%%�"
       - 🇸🇬 SG 1 → tg@nicevpn123
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇰🇷 KR-3.36.61.58-5605
+      - 🇸🇬 SG-103.172.116.79-5773
+      - 🇰🇷 KR-211.201.169.70-1103
+      - 🇸🇬 SG-103.172.116.103-5678
       - 🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 SG-47.128.76.42-0238
       - 🇨🇳 TW-36.228.229.227-1161
-      - 🇰🇷 KR-43.202.52.245-0231
+      - 🇭🇰 HK-8.217.93.104-2473
+      - 🇨🇳 TW-36.228.229.227-1159
       - 🇭🇰 HK-203.198.16.214-1101
+      - 🇸🇬 SG-54.255.224.197-5645
+      - 🇰🇷 KR-43.202.52.245-0231
+      - 🇸🇬 SG-47.128.76.42-0238
       - 🇰🇷 KR-43.201.5.168-0143
       - 🇰🇷 KR-64.110.87.97-0186
       - 🇨🇳 TW-61.228.157.179-1156
@@ -556,203 +560,204 @@ proxy-groups:
       - 🇨🇳 TW-61.228.183.148-1157
       - 🇭🇰 HK-203.198.16.190-1102
       - 🇭🇰 HK-203.198.16.190-1099
-      - 🇯🇵 JP-52.195.236.85-0135
-      - 🇨🇳 _TW_台湾->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 US 193 → tg@nicevpn123
+      - 🇯🇵 JP-52.195.236.85-0135ss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1Y3A5WjNpV25KWjI@205.134.180.151443#🇺🇸 US 76 → tg@nicevpn123
+      - 🇺🇸 US 225 → tg@nicevpn123
+      - 🇺🇸 US 115 → tg@nicevpn123
+      - 🇺🇸 US 160 → tg@nicevpn123
+      - 🇺🇸 US 113 → tg@nicevpn123
+      - 🇺🇸 US 112 → tg@nicevpn123
+      - 🇺🇸 US 208 → tg@nicevpn123
       - 🇨🇦 CA 1 → tg@nicevpn123
-      - 🇺🇸 US 10 → tg@nicevpn123
-      - 🇺🇸 US 33 → tg@nicevpn123
-      - 🇺🇸 US 74 → tg@nicevpn123
-      - 🇺🇸 US 229 → tg@nicevpn123
-      - 🇺🇸 US-38.54.104.184-0803
-      - 🇺🇸 US 171 → tg@nicevpn123
-      - 🇺🇸 US 219 → tg@nicevpn123
-      - 🇺🇸 US-38.121.43.65-9432
-      - 🇺🇸 US-38.121.43.142-10206
-      - 🇺🇸 US-38.68.134.9-8813
-      - 🇺🇸 US-38.68.135.18-9651
-      - 🇺🇸 US-38.68.134.85-9814
-      - 🇺🇸 US-38.75.136.135-10211
-      - 🇺🇸 US-38.107.226.49-10247
-      - 🇺🇸 US-38.121.43.51-8802
-      - 🇺🇸 US-38.121.43.97-9431
+      - 🇺🇸 US-38.54.104.184-0758
+      - 🇺🇸 US 88 → tg@nicevpn123
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇺🇸 US 130 → tg@nicevpn123
+      - 🇺🇸 US 218 → tg@nicevpn123
       - 🇺🇸 US-142.202.48.43-1434
-      - 🇺🇸 US-38.107.226.146-9435
-      - 🇺🇸 美国1|@ripaojiedian
-      - 🇺🇸 US-80.92.205.112-1170
-      - 🇺🇸 9,18,19|美国1|@ripaojiedian
-      - 🇺🇸 US-167.88.61.175-1263
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇦 _CR_哥斯达黎加->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 US 71 → tg@nicevpn123
-      - 🇺🇸 US 60 → tg@nicevpn123
-      - 🇺🇸 US 61 → tg@nicevpn123
+      - 🇺🇸 US 91 → tg@nicevpn123
       - 🇺🇸 US 62 → tg@nicevpn123
-      - 🇺🇸 US 63 → tg@nicevpn123
       - 🇺🇸 US 64 → tg@nicevpn123
-      - 🇺🇸 US 65 → tg@nicevpn123
       - 🇺🇸 US 66 → tg@nicevpn123
+      - 🇺🇸 US 67 → tg@nicevpn123
       - 🇺🇸 US 68 → tg@nicevpn123
       - 🇺🇸 US 69 → tg@nicevpn123
-      - 🇺🇸 US 6 → tg@nicevpn123
-      - 🇺🇸 US 72 → tg@nicevpn123
+      - 🇺🇸 US 7 → tg@nicevpn123
+      - 🇺🇸 US 70 → tg@nicevpn123
       - 🇺🇸 US 73 → tg@nicevpn123
-      - 🇺🇸 US 58 → tg@nicevpn123
+      - 🇺🇸 US 74 → tg@nicevpn123
       - 🇺🇸 US 75 → tg@nicevpn123
-      - 🇺🇸 US 76 → tg@nicevpn123
-      - 🇺🇸 US 77 → tg@nicevpn123
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇺🇸 US 78 → tg@nicevpn123
-      - 🇺🇸 US 79 → tg@nicevpn123
       - 🇺🇸 US 8 → tg@nicevpn123
       - 🇺🇸 US 80 → tg@nicevpn123
+      - 🇺🇸 US 81 → tg@nicevpn123
       - 🇺🇸 US 82 → tg@nicevpn123
       - 🇺🇸 US 83 → tg@nicevpn123
       - 🇺🇸 US 84 → tg@nicevpn123
       - 🇺🇸 US 85 → tg@nicevpn123
       - 🇺🇸 US 86 → tg@nicevpn123
       - 🇺🇸 US 87 → tg@nicevpn123
-      - 🇺🇸 US 88 → tg@nicevpn123
+      - 🇺🇸 US 61 → tg@nicevpn123
       - 🇺🇸 US 89 → tg@nicevpn123
       - 🇺🇸 US 9 → tg@nicevpn123
       - 🇺🇸 US 90 → tg@nicevpn123
-      - 🇺🇸 US 57 → tg@nicevpn123
+      - 🇺🇸 US 156 → tg@nicevpn123
       - 🇺🇸 US 92 → tg@nicevpn123
       - 🇺🇸 US 93 → tg@nicevpn123
       - 🇺🇸 US 94 → tg@nicevpn123
       - 🇺🇸 US 95 → tg@nicevpn123
-      - 🇺🇸 US 52 → tg@nicevpn123
+      - 🇺🇸 US 96 → tg@nicevpn123
       - 🇺🇸 US 97 → tg@nicevpn123
       - 🇺🇸 US 98 → tg@nicevpn123
       - 🇺🇸 US 99 → tg@nicevpn123
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇺🇸 US-18.189.191.191-2449
+      - 🇺🇸 US 60 → tg@nicevpn123
+      - 🇺🇸 US 59 → tg@nicevpn123
+      - 🇺🇸 US-198.2.219.242-5339
+      - 🇺🇸 US 58 → tg@nicevpn123
+      - 🇺🇸 US 57 → tg@nicevpn123
+      - 🇺🇸 US 56 → tg@nicevpn123
+      - 🇺🇸 US 54 → tg@nicevpn123
+      - 🇺🇸 US 53 → tg@nicevpn123
+      - 🇺🇸 US 52 → tg@nicevpn123
       - 🇺🇸 US 51 → tg@nicevpn123
+      - 🇺🇸 US 50 → tg@nicevpn123
       - 🇺🇸 US 5 → tg@nicevpn123
+      - 🇺🇸 US 49 → tg@nicevpn123
       - 🇺🇸 US 48 → tg@nicevpn123
       - 🇺🇸 US 47 → tg@nicevpn123
-      - 🇺🇸 US 46 → tg@nicevpn123
       - 🇺🇸 US 45 → tg@nicevpn123
       - 🇺🇸 US 44 → tg@nicevpn123
       - 🇺🇸 US 43 → tg@nicevpn123
+      - 🇺🇸 US-38.54.185.111-1357
+      - 🇺🇸 US-38.91.101.159-1437
       - 🇺🇸 US 42 → tg@nicevpn123
+      - 🇺🇸 US-89.187.179.192-1166
+      - 🇺🇸 US-47.88.87.39-1359
+      - 🇺🇸 US-89.187.181.179-1167
       - 🇺🇸 US 41 → tg@nicevpn123
+      - 🇺🇸 US-34.209.235.189-0017
+      - 🇺🇸 US-35.93.149.201-0211
+      - 🇺🇸 US-47.76.163.94-0289
       - 🇺🇸 US 40 → tg@nicevpn123
       - 🇺🇸 US 4 → tg@nicevpn123
-      - 🇺🇸 US 39 → tg@nicevpn123
-      - 🇺🇸 US 38 → tg@nicevpn123
-      - 4Nika-17843
-      - 4Nika-18199
-      - 4Nika-1179
-      - 4Nika-14067
-      - 4Nika-14083
-      - 4Nika-12690
-      - 4Nika-17488
-      - 4Nika-407
-      - 4Nika-4045
-      - 4Nika-490
-      - 4Nika-15218
-      - BE 1 → tg@nicevpn123
-      - 🇫🇷 FR 3 → tg@nicevpn123
-      - 4Nika-437
-      - 4Nika-4121
+      - 🇺🇸 US-103.35.190.65-0042
+      - 🇺🇸 US-47.254.121.68-1244
+      - 🇺🇸 US-141.193.68.81-1278
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 4Nika-15326
+      - 4Nika-13945
+      - RELAY-172.67.217.198-0066
+      - 4Nika-3613
+      - 4Nika-415
+      - 4Nika-13928
+      - 4Nika-18040
+      - 4Nika-493
+      - 4Nika-1426
+      - 🇳🇱 NL 3 → tg@nicevpn123
+      - 4Nika-107
+      - 🇫🇷 FR 4 → tg@nicevpn123
+      - 4Nika-4084
+      - 🇳🇱 NL 2 → tg@nicevpn123
+      - 4Nika-4138
+      - 🇬🇧 GB 4 → tg@nicevpn123
+      - 🇬🇧 GB 5 → tg@nicevpn123
+      - 🇩🇪 DE 1 → tg@nicevpn123
+      - 4Nika-4135
+      - 4Nika-1156
+      - 4Nika-15856
+      - 4Nika-17779
+      - 4Nika-507
+      - 4Nika-4130
+      - 4Nika-14725
+      - 4Nika-14423
       - 🇬🇧 GB 13 → tg@nicevpn123
-      - 4Nika-67
-      - 4Nika-14847
-      - 🇩🇪 DE-159.69.12.205-1134
-      - 4Nika-613
-      - 4Nika-14125
-      - 4Nika-494
-      - AT 1 → tg@nicevpn123
-      - 4Nika-2531
-      - RELAY-104.21.46.66-0365
-      - 4Nika-18201
-      - 4Nika-4162
-      - AF 1 → tg@nicevpn123
+      - 4Nika-17280
+      - 4Nika-421
+      - 4Nika-521
+      - 4Nika-2532
+      - 4Nika-17516
+      - 4Nika-14893
+      - 4Nika-15329
+      - 🇷🇺 RU 5 → tg@nicevpn123
+      - 🇩🇪 DE-159.69.12.205-1049
       - RO 1 → tg@nicevpn123
-      - 4Nika-70
-      - 4Nika-16278
-      - 4Nika-15455
-      - 4Nika-14454
-      - 4Nika-2078
+      - AT 1 → tg@nicevpn123
+      - AF 1 → tg@nicevpn123
+      - BE 1 → tg@nicevpn123
+      - 4Nika-14201
+      - 4Nika-17098
+      - 4Nika-4166
+      - 🇬🇧 GB 1 → tg@nicevpn123
+      - 4Nika-4106
       - 4Nika-517
-      - BA 1 → tg@nicevpn123
-      - 🇩🇪 DE-80.92.204.106-0212
-      - 4Nika-17027
-      - 4Nika-15053
-      - 4Nika-18207
-      - 4Nika-4170
-      - 4Nika-2213
-      - 4Nika-68
-      - 4Nika-18203
-      - 4Nika-15942
-      - 🇮🇳 IN 1 → tg@nicevpn123
-      - ZA 1 → tg@nicevpn123
-      - 4Nika-9
-      - 4Nika-81
-      - 4Nika-14538
-      - 4Nika-16988
-      - 4Nika-15016
-      - 4Nika-2077
-      - 4Nika-672
-      - 4Nika-644
-      - KE 1 → tg@nicevpn123
-      - 4Nika-16778
-      - 4Nika-14641
-      - 4Nika-14339
+      - 4Nika-17834
+      - 4Nika-15297
+      - 🇫🇷 FR 3 → tg@nicevpn123
+      - 4Nika-15864
+      - 4Nika-14523
+      - 4Nika-17051
+      - 4Nika-16785
+      - 4Nika-614
+      - 4Nika-17760
+      - 4Nika-17823
+      - AL-31.171.153.181-1073
+      - 4Nika-2215
+      - 4Nika-17835
+      - 4Nika-524
+      - 4Nika-15410
       - 4Nika-119
-      - 4Nika-18090
-      - 4Nika-17695
-      - VN-103.163.218.2-2810
-      - 4Nika-18015
-      - NO 1 → tg@nicevpn123
-      - 🇷🇺 RU 12 → tg@nicevpn123
-      - 4Nika-1024
-      - 4Nika-18005
-      - PA-138.186.142.4-2716
-      - 4Nika-18277
-      - 4Nika-12502
-      - 4Nika-16260
-      - 4Nika-16259
-      - ZA-129.232.129.156-1201
-      - 4Nika-15868
-      - 4Nika-1128
-      - 4Nika-3826
-      - 4Nika-18296
-      - 4Nika-17480
-      - 4Nika-17320
-      - 🇬🇧 GB 17 → tg@nicevpn123
-      - 4Nika-17600
-      - 4Nika-17711
-      - 4Nika-1078
-      - AL-31.171.153.181-1155
-      - 4Nika-17479
-      - 4Nika-17487
-      - 4Nika-17497
-      - 4Nika-17036
+      - 🇫🇷 FR 2 → tg@nicevpn123
+      - 4Nika-18325
+      - 4Nika-17743
+      - BA 1 → tg@nicevpn123
+      - 4Nika-2085
+      - 4Nika-14308
+      - 🇮🇳 IN 1 → tg@nicevpn123
+      - 4Nika-17755
+      - 4Nika-17012
+      - 4Nika-17756
+      - 4Nika-17833
+      - 🇦🇪 _AE_阿联酋->🇬🇧_GB_英国
+      - 4Nika-1025
+      - 🇬🇧 GB-51.143.138.174-3139
+      - 4Nika-17525
+      - 4Nika-16781
+      - 4Nika-17518
+      - 4Nika-1054
+      - 4Nika-644
+      - 4Nika-15124
+      - 4Nika-17613
+      - 4Nika-17517
+      - CY 1 → tg@nicevpn123
+      - ZA 1 → tg@nicevpn123
+      - VN-103.163.218.2-1279
+      - 4Nika-652
+      - 4Nika-2084
   - name: ⚡ 故障转移
     type: fallback
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇰🇷 KR 2 → tg@nicevpn123
-      - "🇯🇵 %�\x11�%�P���JP-3.112.15.141-115%%�"
       - 🇸🇬 SG 1 → tg@nicevpn123
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇰🇷 KR-3.36.61.58-5605
+      - 🇸🇬 SG-103.172.116.79-5773
+      - 🇰🇷 KR-211.201.169.70-1103
+      - 🇸🇬 SG-103.172.116.103-5678
       - 🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 SG-47.128.76.42-0238
       - 🇨🇳 TW-36.228.229.227-1161
-      - 🇰🇷 KR-43.202.52.245-0231
+      - 🇭🇰 HK-8.217.93.104-2473
+      - 🇨🇳 TW-36.228.229.227-1159
       - 🇭🇰 HK-203.198.16.214-1101
+      - 🇸🇬 SG-54.255.224.197-5645
+      - 🇰🇷 KR-43.202.52.245-0231
+      - 🇸🇬 SG-47.128.76.42-0238
       - 🇰🇷 KR-43.201.5.168-0143
       - 🇰🇷 KR-64.110.87.97-0186
       - 🇨🇳 TW-61.228.157.179-1156
@@ -784,299 +789,300 @@ proxy-groups:
       - 🇨🇳 TW-61.228.183.148-1157
       - 🇭🇰 HK-203.198.16.190-1102
       - 🇭🇰 HK-203.198.16.190-1099
-      - 🇯🇵 JP-52.195.236.85-0135
-      - 🇨🇳 _TW_台湾->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 US 193 → tg@nicevpn123
+      - 🇯🇵 JP-52.195.236.85-0135ss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1Y3A5WjNpV25KWjI@205.134.180.151443#🇺🇸 US 76 → tg@nicevpn123
+      - 🇺🇸 US 225 → tg@nicevpn123
+      - 🇺🇸 US 115 → tg@nicevpn123
+      - 🇺🇸 US 160 → tg@nicevpn123
+      - 🇺🇸 US 113 → tg@nicevpn123
+      - 🇺🇸 US 112 → tg@nicevpn123
+      - 🇺🇸 US 208 → tg@nicevpn123
       - 🇨🇦 CA 1 → tg@nicevpn123
-      - 🇺🇸 US 10 → tg@nicevpn123
-      - 🇺🇸 US 33 → tg@nicevpn123
-      - 🇺🇸 US 74 → tg@nicevpn123
-      - 🇺🇸 US 229 → tg@nicevpn123
-      - 🇺🇸 US-38.54.104.184-0803
-      - 🇺🇸 US 171 → tg@nicevpn123
-      - 🇺🇸 US 219 → tg@nicevpn123
-      - 🇺🇸 US-38.121.43.65-9432
-      - 🇺🇸 US-38.121.43.142-10206
-      - 🇺🇸 US-38.68.134.9-8813
-      - 🇺🇸 US-38.68.135.18-9651
-      - 🇺🇸 US-38.68.134.85-9814
-      - 🇺🇸 US-38.75.136.135-10211
-      - 🇺🇸 US-38.107.226.49-10247
-      - 🇺🇸 US-38.121.43.51-8802
-      - 🇺🇸 US-38.121.43.97-9431
+      - 🇺🇸 US-38.54.104.184-0758
+      - 🇺🇸 US 88 → tg@nicevpn123
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇺🇸 US 130 → tg@nicevpn123
+      - 🇺🇸 US 218 → tg@nicevpn123
       - 🇺🇸 US-142.202.48.43-1434
-      - 🇺🇸 US-38.107.226.146-9435
-      - 🇺🇸 美国1|@ripaojiedian
-      - 🇺🇸 US-80.92.205.112-1170
-      - 🇺🇸 9,18,19|美国1|@ripaojiedian
-      - 🇺🇸 US-167.88.61.175-1263
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇦 _CR_哥斯达黎加->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 US 71 → tg@nicevpn123
-      - 🇺🇸 US 60 → tg@nicevpn123
-      - 🇺🇸 US 61 → tg@nicevpn123
+      - 🇺🇸 US 91 → tg@nicevpn123
       - 🇺🇸 US 62 → tg@nicevpn123
-      - 🇺🇸 US 63 → tg@nicevpn123
       - 🇺🇸 US 64 → tg@nicevpn123
-      - 🇺🇸 US 65 → tg@nicevpn123
       - 🇺🇸 US 66 → tg@nicevpn123
+      - 🇺🇸 US 67 → tg@nicevpn123
       - 🇺🇸 US 68 → tg@nicevpn123
       - 🇺🇸 US 69 → tg@nicevpn123
-      - 🇺🇸 US 6 → tg@nicevpn123
-      - 🇺🇸 US 72 → tg@nicevpn123
+      - 🇺🇸 US 7 → tg@nicevpn123
+      - 🇺🇸 US 70 → tg@nicevpn123
       - 🇺🇸 US 73 → tg@nicevpn123
-      - 🇺🇸 US 58 → tg@nicevpn123
+      - 🇺🇸 US 74 → tg@nicevpn123
       - 🇺🇸 US 75 → tg@nicevpn123
-      - 🇺🇸 US 76 → tg@nicevpn123
-      - 🇺🇸 US 77 → tg@nicevpn123
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇺🇸 US 78 → tg@nicevpn123
-      - 🇺🇸 US 79 → tg@nicevpn123
       - 🇺🇸 US 8 → tg@nicevpn123
       - 🇺🇸 US 80 → tg@nicevpn123
+      - 🇺🇸 US 81 → tg@nicevpn123
       - 🇺🇸 US 82 → tg@nicevpn123
       - 🇺🇸 US 83 → tg@nicevpn123
       - 🇺🇸 US 84 → tg@nicevpn123
       - 🇺🇸 US 85 → tg@nicevpn123
       - 🇺🇸 US 86 → tg@nicevpn123
       - 🇺🇸 US 87 → tg@nicevpn123
-      - 🇺🇸 US 88 → tg@nicevpn123
+      - 🇺🇸 US 61 → tg@nicevpn123
       - 🇺🇸 US 89 → tg@nicevpn123
       - 🇺🇸 US 9 → tg@nicevpn123
       - 🇺🇸 US 90 → tg@nicevpn123
-      - 🇺🇸 US 57 → tg@nicevpn123
+      - 🇺🇸 US 156 → tg@nicevpn123
       - 🇺🇸 US 92 → tg@nicevpn123
       - 🇺🇸 US 93 → tg@nicevpn123
       - 🇺🇸 US 94 → tg@nicevpn123
       - 🇺🇸 US 95 → tg@nicevpn123
-      - 🇺🇸 US 52 → tg@nicevpn123
+      - 🇺🇸 US 96 → tg@nicevpn123
       - 🇺🇸 US 97 → tg@nicevpn123
       - 🇺🇸 US 98 → tg@nicevpn123
       - 🇺🇸 US 99 → tg@nicevpn123
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇺🇸 US-18.189.191.191-2449
+      - 🇺🇸 US 60 → tg@nicevpn123
+      - 🇺🇸 US 59 → tg@nicevpn123
+      - 🇺🇸 US-198.2.219.242-5339
+      - 🇺🇸 US 58 → tg@nicevpn123
+      - 🇺🇸 US 57 → tg@nicevpn123
+      - 🇺🇸 US 56 → tg@nicevpn123
+      - 🇺🇸 US 54 → tg@nicevpn123
+      - 🇺🇸 US 53 → tg@nicevpn123
+      - 🇺🇸 US 52 → tg@nicevpn123
       - 🇺🇸 US 51 → tg@nicevpn123
+      - 🇺🇸 US 50 → tg@nicevpn123
       - 🇺🇸 US 5 → tg@nicevpn123
+      - 🇺🇸 US 49 → tg@nicevpn123
       - 🇺🇸 US 48 → tg@nicevpn123
       - 🇺🇸 US 47 → tg@nicevpn123
-      - 🇺🇸 US 46 → tg@nicevpn123
       - 🇺🇸 US 45 → tg@nicevpn123
       - 🇺🇸 US 44 → tg@nicevpn123
       - 🇺🇸 US 43 → tg@nicevpn123
+      - 🇺🇸 US-38.54.185.111-1357
+      - 🇺🇸 US-38.91.101.159-1437
       - 🇺🇸 US 42 → tg@nicevpn123
+      - 🇺🇸 US-89.187.179.192-1166
+      - 🇺🇸 US-47.88.87.39-1359
+      - 🇺🇸 US-89.187.181.179-1167
       - 🇺🇸 US 41 → tg@nicevpn123
+      - 🇺🇸 US-34.209.235.189-0017
+      - 🇺🇸 US-35.93.149.201-0211
+      - 🇺🇸 US-47.76.163.94-0289
       - 🇺🇸 US 40 → tg@nicevpn123
       - 🇺🇸 US 4 → tg@nicevpn123
-      - 🇺🇸 US 39 → tg@nicevpn123
-      - 🇺🇸 US 38 → tg@nicevpn123
-      - 4Nika-17843
-      - 4Nika-18199
-      - 4Nika-1179
-      - 4Nika-14067
-      - 4Nika-14083
-      - 4Nika-12690
-      - 4Nika-17488
-      - 4Nika-407
-      - 4Nika-4045
-      - 4Nika-490
-      - 4Nika-15218
-      - BE 1 → tg@nicevpn123
-      - 🇫🇷 FR 3 → tg@nicevpn123
-      - 4Nika-437
-      - 4Nika-4121
+      - 🇺🇸 US-103.35.190.65-0042
+      - 🇺🇸 US-47.254.121.68-1244
+      - 🇺🇸 US-141.193.68.81-1278
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
+      - 4Nika-15326
+      - 4Nika-13945
+      - RELAY-172.67.217.198-0066
+      - 4Nika-3613
+      - 4Nika-415
+      - 4Nika-13928
+      - 4Nika-18040
+      - 4Nika-493
+      - 4Nika-1426
+      - 🇳🇱 NL 3 → tg@nicevpn123
+      - 4Nika-107
+      - 🇫🇷 FR 4 → tg@nicevpn123
+      - 4Nika-4084
+      - 🇳🇱 NL 2 → tg@nicevpn123
+      - 4Nika-4138
+      - 🇬🇧 GB 4 → tg@nicevpn123
+      - 🇬🇧 GB 5 → tg@nicevpn123
+      - 🇩🇪 DE 1 → tg@nicevpn123
+      - 4Nika-4135
+      - 4Nika-1156
+      - 4Nika-15856
+      - 4Nika-17779
+      - 4Nika-507
+      - 4Nika-4130
+      - 4Nika-14725
+      - 4Nika-14423
       - 🇬🇧 GB 13 → tg@nicevpn123
-      - 4Nika-67
-      - 4Nika-14847
-      - 🇩🇪 DE-159.69.12.205-1134
-      - 4Nika-613
-      - 4Nika-14125
-      - 4Nika-494
-      - AT 1 → tg@nicevpn123
-      - 4Nika-2531
-      - RELAY-104.21.46.66-0365
-      - 4Nika-18201
-      - 4Nika-4162
-      - AF 1 → tg@nicevpn123
+      - 4Nika-17280
+      - 4Nika-421
+      - 4Nika-521
+      - 4Nika-2532
+      - 4Nika-17516
+      - 4Nika-14893
+      - 4Nika-15329
+      - 🇷🇺 RU 5 → tg@nicevpn123
+      - 🇩🇪 DE-159.69.12.205-1049
       - RO 1 → tg@nicevpn123
-      - 4Nika-70
-      - 4Nika-16278
-      - 4Nika-15455
-      - 4Nika-14454
-      - 4Nika-2078
+      - AT 1 → tg@nicevpn123
+      - AF 1 → tg@nicevpn123
+      - BE 1 → tg@nicevpn123
+      - 4Nika-14201
+      - 4Nika-17098
+      - 4Nika-4166
+      - 🇬🇧 GB 1 → tg@nicevpn123
+      - 4Nika-4106
       - 4Nika-517
-      - BA 1 → tg@nicevpn123
-      - 🇩🇪 DE-80.92.204.106-0212
-      - 4Nika-17027
-      - 4Nika-15053
-      - 4Nika-18207
-      - 4Nika-4170
-      - 4Nika-2213
-      - 4Nika-68
-      - 4Nika-18203
-      - 4Nika-15942
-      - 🇮🇳 IN 1 → tg@nicevpn123
-      - ZA 1 → tg@nicevpn123
-      - 4Nika-9
-      - 4Nika-81
-      - 4Nika-14538
-      - 4Nika-16988
-      - 4Nika-15016
-      - 4Nika-2077
-      - 4Nika-672
-      - 4Nika-644
-      - KE 1 → tg@nicevpn123
-      - 4Nika-16778
-      - 4Nika-14641
-      - 4Nika-14339
+      - 4Nika-17834
+      - 4Nika-15297
+      - 🇫🇷 FR 3 → tg@nicevpn123
+      - 4Nika-15864
+      - 4Nika-14523
+      - 4Nika-17051
+      - 4Nika-16785
+      - 4Nika-614
+      - 4Nika-17760
+      - 4Nika-17823
+      - AL-31.171.153.181-1073
+      - 4Nika-2215
+      - 4Nika-17835
+      - 4Nika-524
+      - 4Nika-15410
       - 4Nika-119
-      - 4Nika-18090
-      - 4Nika-17695
-      - VN-103.163.218.2-2810
-      - 4Nika-18015
-      - NO 1 → tg@nicevpn123
-      - 🇷🇺 RU 12 → tg@nicevpn123
-      - 4Nika-1024
-      - 4Nika-18005
-      - PA-138.186.142.4-2716
-      - 4Nika-18277
-      - 4Nika-12502
-      - 4Nika-16260
-      - 4Nika-16259
-      - ZA-129.232.129.156-1201
-      - 4Nika-15868
-      - 4Nika-1128
-      - 4Nika-3826
-      - 4Nika-18296
-      - 4Nika-17480
-      - 4Nika-17320
-      - 🇬🇧 GB 17 → tg@nicevpn123
-      - 4Nika-17600
-      - 4Nika-17711
-      - 4Nika-1078
-      - AL-31.171.153.181-1155
-      - 4Nika-17479
-      - 4Nika-17487
-      - 4Nika-17497
-      - 4Nika-17036
+      - 🇫🇷 FR 2 → tg@nicevpn123
+      - 4Nika-18325
+      - 4Nika-17743
+      - BA 1 → tg@nicevpn123
+      - 4Nika-2085
+      - 4Nika-14308
+      - 🇮🇳 IN 1 → tg@nicevpn123
+      - 4Nika-17755
+      - 4Nika-17012
+      - 4Nika-17756
+      - 4Nika-17833
+      - 🇦🇪 _AE_阿联酋->🇬🇧_GB_英国
+      - 4Nika-1025
+      - 🇬🇧 GB-51.143.138.174-3139
+      - 4Nika-17525
+      - 4Nika-16781
+      - 4Nika-17518
+      - 4Nika-1054
+      - 4Nika-644
+      - 4Nika-15124
+      - 4Nika-17613
+      - 4Nika-17517
+      - CY 1 → tg@nicevpn123
+      - ZA 1 → tg@nicevpn123
+      - VN-103.163.218.2-1279
+      - 4Nika-652
+      - 4Nika-2084
   - name: 🌎 北美地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 _TW_台湾->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 US 193 → tg@nicevpn123
+      - 🇯🇵 JP-52.195.236.85-0135ss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1Y3A5WjNpV25KWjI@205.134.180.151443#🇺🇸 US 76 → tg@nicevpn123
+      - 🇺🇸 US 225 → tg@nicevpn123
+      - 🇺🇸 US 115 → tg@nicevpn123
+      - 🇺🇸 US 160 → tg@nicevpn123
+      - 🇺🇸 US 113 → tg@nicevpn123
+      - 🇺🇸 US 112 → tg@nicevpn123
+      - 🇺🇸 US 208 → tg@nicevpn123
       - 🇨🇦 CA 1 → tg@nicevpn123
-      - 🇺🇸 US 10 → tg@nicevpn123
-      - 🇺🇸 US 33 → tg@nicevpn123
-      - 🇺🇸 US 74 → tg@nicevpn123
-      - 🇺🇸 US 229 → tg@nicevpn123
-      - 🇺🇸 US-38.54.104.184-0803
-      - 🇺🇸 US 171 → tg@nicevpn123
-      - 🇺🇸 US 219 → tg@nicevpn123
-      - 🇺🇸 US-38.121.43.65-9432
-      - 🇺🇸 US-38.121.43.142-10206
-      - 🇺🇸 US-38.68.134.9-8813
-      - 🇺🇸 US-38.68.135.18-9651
-      - 🇺🇸 US-38.68.134.85-9814
-      - 🇺🇸 US-38.75.136.135-10211
-      - 🇺🇸 US-38.107.226.49-10247
-      - 🇺🇸 US-38.121.43.51-8802
-      - 🇺🇸 US-38.121.43.97-9431
+      - 🇺🇸 US-38.54.104.184-0758
+      - 🇺🇸 US 88 → tg@nicevpn123
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇺🇸 US 130 → tg@nicevpn123
+      - 🇺🇸 US 218 → tg@nicevpn123
       - 🇺🇸 US-142.202.48.43-1434
-      - 🇺🇸 US-38.107.226.146-9435
-      - 🇺🇸 美国1|@ripaojiedian
-      - 🇺🇸 US-80.92.205.112-1170
-      - 🇺🇸 9,18,19|美国1|@ripaojiedian
-      - 🇺🇸 US-167.88.61.175-1263
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇨🇦 _CR_哥斯达黎加->🇨🇦_CA_加拿大
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 US 71 → tg@nicevpn123
-      - 🇺🇸 US 60 → tg@nicevpn123
-      - 🇺🇸 US 61 → tg@nicevpn123
+      - 🇺🇸 US 91 → tg@nicevpn123
       - 🇺🇸 US 62 → tg@nicevpn123
-      - 🇺🇸 US 63 → tg@nicevpn123
       - 🇺🇸 US 64 → tg@nicevpn123
-      - 🇺🇸 US 65 → tg@nicevpn123
       - 🇺🇸 US 66 → tg@nicevpn123
+      - 🇺🇸 US 67 → tg@nicevpn123
       - 🇺🇸 US 68 → tg@nicevpn123
       - 🇺🇸 US 69 → tg@nicevpn123
-      - 🇺🇸 US 6 → tg@nicevpn123
-      - 🇺🇸 US 72 → tg@nicevpn123
+      - 🇺🇸 US 7 → tg@nicevpn123
+      - 🇺🇸 US 70 → tg@nicevpn123
       - 🇺🇸 US 73 → tg@nicevpn123
-      - 🇺🇸 US 58 → tg@nicevpn123
+      - 🇺🇸 US 74 → tg@nicevpn123
       - 🇺🇸 US 75 → tg@nicevpn123
-      - 🇺🇸 US 76 → tg@nicevpn123
-      - 🇺🇸 US 77 → tg@nicevpn123
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇺🇸 US 78 → tg@nicevpn123
-      - 🇺🇸 US 79 → tg@nicevpn123
       - 🇺🇸 US 8 → tg@nicevpn123
       - 🇺🇸 US 80 → tg@nicevpn123
+      - 🇺🇸 US 81 → tg@nicevpn123
       - 🇺🇸 US 82 → tg@nicevpn123
       - 🇺🇸 US 83 → tg@nicevpn123
       - 🇺🇸 US 84 → tg@nicevpn123
       - 🇺🇸 US 85 → tg@nicevpn123
       - 🇺🇸 US 86 → tg@nicevpn123
       - 🇺🇸 US 87 → tg@nicevpn123
-      - 🇺🇸 US 88 → tg@nicevpn123
+      - 🇺🇸 US 61 → tg@nicevpn123
       - 🇺🇸 US 89 → tg@nicevpn123
       - 🇺🇸 US 9 → tg@nicevpn123
       - 🇺🇸 US 90 → tg@nicevpn123
-      - 🇺🇸 US 57 → tg@nicevpn123
+      - 🇺🇸 US 156 → tg@nicevpn123
       - 🇺🇸 US 92 → tg@nicevpn123
       - 🇺🇸 US 93 → tg@nicevpn123
       - 🇺🇸 US 94 → tg@nicevpn123
       - 🇺🇸 US 95 → tg@nicevpn123
-      - 🇺🇸 US 52 → tg@nicevpn123
+      - 🇺🇸 US 96 → tg@nicevpn123
       - 🇺🇸 US 97 → tg@nicevpn123
       - 🇺🇸 US 98 → tg@nicevpn123
       - 🇺🇸 US 99 → tg@nicevpn123
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇺🇸 US-18.189.191.191-2449
+      - 🇺🇸 US 60 → tg@nicevpn123
+      - 🇺🇸 US 59 → tg@nicevpn123
+      - 🇺🇸 US-198.2.219.242-5339
+      - 🇺🇸 US 58 → tg@nicevpn123
+      - 🇺🇸 US 57 → tg@nicevpn123
+      - 🇺🇸 US 56 → tg@nicevpn123
+      - 🇺🇸 US 54 → tg@nicevpn123
+      - 🇺🇸 US 53 → tg@nicevpn123
+      - 🇺🇸 US 52 → tg@nicevpn123
       - 🇺🇸 US 51 → tg@nicevpn123
+      - 🇺🇸 US 50 → tg@nicevpn123
       - 🇺🇸 US 5 → tg@nicevpn123
+      - 🇺🇸 US 49 → tg@nicevpn123
       - 🇺🇸 US 48 → tg@nicevpn123
       - 🇺🇸 US 47 → tg@nicevpn123
-      - 🇺🇸 US 46 → tg@nicevpn123
       - 🇺🇸 US 45 → tg@nicevpn123
       - 🇺🇸 US 44 → tg@nicevpn123
       - 🇺🇸 US 43 → tg@nicevpn123
+      - 🇺🇸 US-38.54.185.111-1357
+      - 🇺🇸 US-38.91.101.159-1437
       - 🇺🇸 US 42 → tg@nicevpn123
+      - 🇺🇸 US-89.187.179.192-1166
+      - 🇺🇸 US-47.88.87.39-1359
+      - 🇺🇸 US-89.187.181.179-1167
       - 🇺🇸 US 41 → tg@nicevpn123
+      - 🇺🇸 US-34.209.235.189-0017
+      - 🇺🇸 US-35.93.149.201-0211
+      - 🇺🇸 US-47.76.163.94-0289
       - 🇺🇸 US 40 → tg@nicevpn123
       - 🇺🇸 US 4 → tg@nicevpn123
-      - 🇺🇸 US 39 → tg@nicevpn123
-      - 🇺🇸 US 38 → tg@nicevpn123
+      - 🇺🇸 US-103.35.190.65-0042
+      - 🇺🇸 US-47.254.121.68-1244
+      - 🇺🇸 US-141.193.68.81-1278
+      - 🇨🇦 _CA_加拿大
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
   - name: 🌏 东亚地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 KR 2 → tg@nicevpn123
-      - "🇯🇵 %�\x11�%�P���JP-3.112.15.141-115%%�"
       - 🇸🇬 SG 1 → tg@nicevpn123
       - 🇭🇰 香港2|@ripaojiedian
-      - 🇰🇷 KR-3.36.61.58-5605
+      - 🇸🇬 SG-103.172.116.79-5773
+      - 🇰🇷 KR-211.201.169.70-1103
+      - 🇸🇬 SG-103.172.116.103-5678
       - 🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 韩国特殊|@ripaojiedian
-      - 🇸🇬 SG-47.128.76.42-0238
       - 🇨🇳 TW-36.228.229.227-1161
-      - 🇰🇷 KR-43.202.52.245-0231
+      - 🇭🇰 HK-8.217.93.104-2473
+      - 🇨🇳 TW-36.228.229.227-1159
       - 🇭🇰 HK-203.198.16.214-1101
+      - 🇸🇬 SG-54.255.224.197-5645
+      - 🇰🇷 KR-43.202.52.245-0231
+      - 🇸🇬 SG-47.128.76.42-0238
       - 🇰🇷 KR-43.201.5.168-0143
       - 🇰🇷 KR-64.110.87.97-0186
       - 🇨🇳 TW-61.228.157.179-1156
@@ -1108,197 +1114,196 @@ proxy-groups:
       - 🇨🇳 TW-61.228.183.148-1157
       - 🇭🇰 HK-203.198.16.190-1102
       - 🇭🇰 HK-203.198.16.190-1099
-      - 🇯🇵 JP-52.195.236.85-0135
-      - 🇨🇳 _TW_台湾->🇺🇸_US_美国
+      - 🇯🇵 JP-52.195.236.85-0135ss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1Y3A5WjNpV25KWjI@205.134.180.151443#🇺🇸 US 76 → tg@nicevpn123
   - name: 🌍 其它地区
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 4Nika-17843
-      - 4Nika-18199
-      - 4Nika-1179
-      - 4Nika-14067
-      - 4Nika-14083
-      - 4Nika-12690
-      - 4Nika-17488
-      - 4Nika-407
-      - 4Nika-4045
-      - 4Nika-490
-      - 4Nika-15218
-      - BE 1 → tg@nicevpn123
-      - 🇫🇷 FR 3 → tg@nicevpn123
-      - 4Nika-437
-      - 4Nika-4121
+      - 4Nika-15326
+      - 4Nika-13945
+      - RELAY-172.67.217.198-0066
+      - 4Nika-3613
+      - 4Nika-415
+      - 4Nika-13928
+      - 4Nika-18040
+      - 4Nika-493
+      - 4Nika-1426
+      - 🇳🇱 NL 3 → tg@nicevpn123
+      - 4Nika-107
+      - 🇫🇷 FR 4 → tg@nicevpn123
+      - 4Nika-4084
+      - 🇳🇱 NL 2 → tg@nicevpn123
+      - 4Nika-4138
+      - 🇬🇧 GB 4 → tg@nicevpn123
+      - 🇬🇧 GB 5 → tg@nicevpn123
+      - 🇩🇪 DE 1 → tg@nicevpn123
+      - 4Nika-4135
+      - 4Nika-1156
+      - 4Nika-15856
+      - 4Nika-17779
+      - 4Nika-507
+      - 4Nika-4130
+      - 4Nika-14725
+      - 4Nika-14423
       - 🇬🇧 GB 13 → tg@nicevpn123
-      - 4Nika-67
-      - 4Nika-14847
-      - 🇩🇪 DE-159.69.12.205-1134
-      - 4Nika-613
-      - 4Nika-14125
-      - 4Nika-494
-      - AT 1 → tg@nicevpn123
-      - 4Nika-2531
-      - RELAY-104.21.46.66-0365
-      - 4Nika-18201
-      - 4Nika-4162
-      - AF 1 → tg@nicevpn123
+      - 4Nika-17280
+      - 4Nika-421
+      - 4Nika-521
+      - 4Nika-2532
+      - 4Nika-17516
+      - 4Nika-14893
+      - 4Nika-15329
+      - 🇷🇺 RU 5 → tg@nicevpn123
+      - 🇩🇪 DE-159.69.12.205-1049
       - RO 1 → tg@nicevpn123
-      - 4Nika-70
-      - 4Nika-16278
-      - 4Nika-15455
-      - 4Nika-14454
-      - 4Nika-2078
+      - AT 1 → tg@nicevpn123
+      - AF 1 → tg@nicevpn123
+      - BE 1 → tg@nicevpn123
+      - 4Nika-14201
+      - 4Nika-17098
+      - 4Nika-4166
+      - 🇬🇧 GB 1 → tg@nicevpn123
+      - 4Nika-4106
       - 4Nika-517
-      - BA 1 → tg@nicevpn123
-      - 🇩🇪 DE-80.92.204.106-0212
-      - 4Nika-17027
-      - 4Nika-15053
-      - 4Nika-18207
-      - 4Nika-4170
-      - 4Nika-2213
-      - 4Nika-68
-      - 4Nika-18203
-      - 4Nika-15942
-      - 🇮🇳 IN 1 → tg@nicevpn123
-      - ZA 1 → tg@nicevpn123
-      - 4Nika-9
-      - 4Nika-81
-      - 4Nika-14538
-      - 4Nika-16988
-      - 4Nika-15016
-      - 4Nika-2077
-      - 4Nika-672
-      - 4Nika-644
-      - KE 1 → tg@nicevpn123
-      - 4Nika-16778
-      - 4Nika-14641
-      - 4Nika-14339
+      - 4Nika-17834
+      - 4Nika-15297
+      - 🇫🇷 FR 3 → tg@nicevpn123
+      - 4Nika-15864
+      - 4Nika-14523
+      - 4Nika-17051
+      - 4Nika-16785
+      - 4Nika-614
+      - 4Nika-17760
+      - 4Nika-17823
+      - AL-31.171.153.181-1073
+      - 4Nika-2215
+      - 4Nika-17835
+      - 4Nika-524
+      - 4Nika-15410
       - 4Nika-119
-      - 4Nika-18090
-      - 4Nika-17695
-      - VN-103.163.218.2-2810
-      - 4Nika-18015
-      - NO 1 → tg@nicevpn123
-      - 🇷🇺 RU 12 → tg@nicevpn123
-      - 4Nika-1024
-      - 4Nika-18005
-      - PA-138.186.142.4-2716
-      - 4Nika-18277
-      - 4Nika-12502
-      - 4Nika-16260
-      - 4Nika-16259
-      - ZA-129.232.129.156-1201
-      - 4Nika-15868
-      - 4Nika-1128
-      - 4Nika-3826
-      - 4Nika-18296
-      - 4Nika-17480
-      - 4Nika-17320
-      - 🇬🇧 GB 17 → tg@nicevpn123
-      - 4Nika-17600
-      - 4Nika-17711
-      - 4Nika-1078
-      - AL-31.171.153.181-1155
-      - 4Nika-17479
-      - 4Nika-17487
-      - 4Nika-17497
-      - 4Nika-17036
+      - 🇫🇷 FR 2 → tg@nicevpn123
+      - 4Nika-18325
+      - 4Nika-17743
+      - BA 1 → tg@nicevpn123
+      - 4Nika-2085
+      - 4Nika-14308
+      - 🇮🇳 IN 1 → tg@nicevpn123
+      - 4Nika-17755
+      - 4Nika-17012
+      - 4Nika-17756
+      - 4Nika-17833
+      - 🇦🇪 _AE_阿联酋->🇬🇧_GB_英国
+      - 4Nika-1025
+      - 🇬🇧 GB-51.143.138.174-3139
+      - 4Nika-17525
+      - 4Nika-16781
+      - 4Nika-17518
+      - 4Nika-1054
+      - 4Nika-644
+      - 4Nika-15124
+      - 4Nika-17613
+      - 4Nika-17517
+      - CY 1 → tg@nicevpn123
+      - ZA 1 → tg@nicevpn123
+      - VN-103.163.218.2-1279
+      - 4Nika-652
+      - 4Nika-2084
   - name: 美国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇨🇳 _TW_台湾->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 2
-      - 🇺🇸 US 193 → tg@nicevpn123
-      - 🇺🇸 US 10 → tg@nicevpn123
-      - 🇺🇸 US 33 → tg@nicevpn123
-      - 🇺🇸 US 74 → tg@nicevpn123
-      - 🇺🇸 US 229 → tg@nicevpn123
-      - 🇺🇸 US-38.54.104.184-0803
-      - 🇺🇸 US 171 → tg@nicevpn123
-      - 🇺🇸 US 219 → tg@nicevpn123
-      - 🇺🇸 US-38.121.43.65-9432
-      - 🇺🇸 US-38.121.43.142-10206
-      - 🇺🇸 US-38.68.134.9-8813
-      - 🇺🇸 US-38.68.135.18-9651
-      - 🇺🇸 US-38.68.134.85-9814
-      - 🇺🇸 US-38.75.136.135-10211
-      - 🇺🇸 US-38.107.226.49-10247
-      - 🇺🇸 US-38.121.43.51-8802
-      - 🇺🇸 US-38.121.43.97-9431
+      - 🇯🇵 JP-52.195.236.85-0135ss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1Y3A5WjNpV25KWjI@205.134.180.151443#🇺🇸 US 76 → tg@nicevpn123
+      - 🇺🇸 US 225 → tg@nicevpn123
+      - 🇺🇸 US 115 → tg@nicevpn123
+      - 🇺🇸 US 160 → tg@nicevpn123
+      - 🇺🇸 US 113 → tg@nicevpn123
+      - 🇺🇸 US 112 → tg@nicevpn123
+      - 🇺🇸 US 208 → tg@nicevpn123
+      - 🇺🇸 US-38.54.104.184-0758
+      - 🇺🇸 US 88 → tg@nicevpn123
+      - 🇺🇸 美国5|@ripaojiedian
+      - 🇺🇸 US 130 → tg@nicevpn123
+      - 🇺🇸 US 218 → tg@nicevpn123
       - 🇺🇸 US-142.202.48.43-1434
-      - 🇺🇸 US-38.107.226.146-9435
-      - 🇺🇸 美国1|@ripaojiedian
-      - 🇺🇸 US-80.92.205.112-1170
-      - 🇺🇸 9,18,19|美国1|@ripaojiedian
-      - 🇺🇸 US-167.88.61.175-1263
-      - 🇺🇸 _US_美国->🇫🇷_FR_法国
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大 3
-      - 🇺🇸 美国2|@ripaojiedian
-      - 🇺🇸 _US_美国->🇨🇦_CA_加拿大
-      - 🇺🇸 _CA_加拿大->🇺🇸_US_美国
-      - 🇺🇸 _US_美国 6
-      - 🇺🇸 US 71 → tg@nicevpn123
-      - 🇺🇸 US 60 → tg@nicevpn123
-      - 🇺🇸 US 61 → tg@nicevpn123
+      - 🇺🇸 US 91 → tg@nicevpn123
       - 🇺🇸 US 62 → tg@nicevpn123
-      - 🇺🇸 US 63 → tg@nicevpn123
       - 🇺🇸 US 64 → tg@nicevpn123
-      - 🇺🇸 US 65 → tg@nicevpn123
       - 🇺🇸 US 66 → tg@nicevpn123
+      - 🇺🇸 US 67 → tg@nicevpn123
       - 🇺🇸 US 68 → tg@nicevpn123
       - 🇺🇸 US 69 → tg@nicevpn123
-      - 🇺🇸 US 6 → tg@nicevpn123
-      - 🇺🇸 US 72 → tg@nicevpn123
+      - 🇺🇸 US 7 → tg@nicevpn123
+      - 🇺🇸 US 70 → tg@nicevpn123
       - 🇺🇸 US 73 → tg@nicevpn123
-      - 🇺🇸 US 58 → tg@nicevpn123
+      - 🇺🇸 US 74 → tg@nicevpn123
       - 🇺🇸 US 75 → tg@nicevpn123
-      - 🇺🇸 US 76 → tg@nicevpn123
-      - 🇺🇸 US 77 → tg@nicevpn123
+      - 🇺🇸 _US_美国->🇩🇪_DE_德国
       - 🇺🇸 US 78 → tg@nicevpn123
-      - 🇺🇸 US 79 → tg@nicevpn123
       - 🇺🇸 US 8 → tg@nicevpn123
       - 🇺🇸 US 80 → tg@nicevpn123
+      - 🇺🇸 US 81 → tg@nicevpn123
       - 🇺🇸 US 82 → tg@nicevpn123
       - 🇺🇸 US 83 → tg@nicevpn123
       - 🇺🇸 US 84 → tg@nicevpn123
       - 🇺🇸 US 85 → tg@nicevpn123
       - 🇺🇸 US 86 → tg@nicevpn123
       - 🇺🇸 US 87 → tg@nicevpn123
-      - 🇺🇸 US 88 → tg@nicevpn123
+      - 🇺🇸 US 61 → tg@nicevpn123
       - 🇺🇸 US 89 → tg@nicevpn123
       - 🇺🇸 US 9 → tg@nicevpn123
       - 🇺🇸 US 90 → tg@nicevpn123
-      - 🇺🇸 US 57 → tg@nicevpn123
+      - 🇺🇸 US 156 → tg@nicevpn123
       - 🇺🇸 US 92 → tg@nicevpn123
       - 🇺🇸 US 93 → tg@nicevpn123
       - 🇺🇸 US 94 → tg@nicevpn123
       - 🇺🇸 US 95 → tg@nicevpn123
-      - 🇺🇸 US 52 → tg@nicevpn123
+      - 🇺🇸 US 96 → tg@nicevpn123
       - 🇺🇸 US 97 → tg@nicevpn123
       - 🇺🇸 US 98 → tg@nicevpn123
       - 🇺🇸 US 99 → tg@nicevpn123
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
       - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
       - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇺🇸 US-18.189.191.191-2449
+      - 🇺🇸 US 60 → tg@nicevpn123
+      - 🇺🇸 US 59 → tg@nicevpn123
+      - 🇺🇸 US-198.2.219.242-5339
+      - 🇺🇸 US 58 → tg@nicevpn123
+      - 🇺🇸 US 57 → tg@nicevpn123
+      - 🇺🇸 US 56 → tg@nicevpn123
+      - 🇺🇸 US 54 → tg@nicevpn123
+      - 🇺🇸 US 53 → tg@nicevpn123
+      - 🇺🇸 US 52 → tg@nicevpn123
       - 🇺🇸 US 51 → tg@nicevpn123
+      - 🇺🇸 US 50 → tg@nicevpn123
       - 🇺🇸 US 5 → tg@nicevpn123
+      - 🇺🇸 US 49 → tg@nicevpn123
       - 🇺🇸 US 48 → tg@nicevpn123
       - 🇺🇸 US 47 → tg@nicevpn123
-      - 🇺🇸 US 46 → tg@nicevpn123
       - 🇺🇸 US 45 → tg@nicevpn123
       - 🇺🇸 US 44 → tg@nicevpn123
       - 🇺🇸 US 43 → tg@nicevpn123
+      - 🇺🇸 US-38.54.185.111-1357
+      - 🇺🇸 US-38.91.101.159-1437
       - 🇺🇸 US 42 → tg@nicevpn123
+      - 🇺🇸 US-89.187.179.192-1166
+      - 🇺🇸 US-47.88.87.39-1359
+      - 🇺🇸 US-89.187.181.179-1167
       - 🇺🇸 US 41 → tg@nicevpn123
+      - 🇺🇸 US-34.209.235.189-0017
+      - 🇺🇸 US-35.93.149.201-0211
+      - 🇺🇸 US-47.76.163.94-0289
       - 🇺🇸 US 40 → tg@nicevpn123
       - 🇺🇸 US 4 → tg@nicevpn123
-      - 🇺🇸 US 39 → tg@nicevpn123
-      - 🇺🇸 US 38 → tg@nicevpn123
+      - 🇺🇸 US-103.35.190.65-0042
+      - 🇺🇸 US-47.254.121.68-1244
+      - 🇺🇸 US-141.193.68.81-1278
+      - 🇺🇸 _US_美国->🇳🇱_NL_荷兰
   - name: 香港
     type: url-test
     url: https://www.google.com/generate_204
@@ -1306,6 +1311,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇭🇰 香港2|@ripaojiedian
+      - 🇭🇰 HK-8.217.93.104-2473
       - 🇭🇰 HK-203.198.16.214-1101
       - 🇭🇰 HK-118.142.17.238-0132
       - 🇭🇰 HK-50.114.159.248-1066
@@ -1320,6 +1326,9 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇸🇬 SG 1 → tg@nicevpn123
+      - 🇸🇬 SG-103.172.116.79-5773
+      - 🇸🇬 SG-103.172.116.103-5678
+      - 🇸🇬 SG-54.255.224.197-5645
       - 🇸🇬 SG-47.128.76.42-0238
       - 🇸🇬 SG-129.150.36.217-1146
       - 🇸🇬 SG-13.229.88.124-1153
@@ -1335,12 +1344,11 @@ proxy-groups:
     interval: 300
     tolerance: 100
     proxies:
-      - "🇯🇵 %�\x11�%�P���JP-3.112.15.141-115%%�"
       - 🇯🇵 JP-109.123.230.157-0998
       - 🇯🇵 JP-18.181.177.239-0230
       - 🇯🇵 JP-57.180.13.26-0240
       - 🇯🇵 JP-13.230.241.234-0233
-      - 🇯🇵 JP-52.195.236.85-0135
+      - 🇯🇵 JP-52.195.236.85-0135ss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1Y3A5WjNpV25KWjI@205.134.180.151443#🇺🇸 US 76 → tg@nicevpn123
   - name: 台湾
     type: url-test
     url: https://www.google.com/generate_204
@@ -1348,22 +1356,20 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 🇨🇳 TW-36.228.229.227-1161
+      - 🇨🇳 TW-36.228.229.227-1159
       - 🇨🇳 TW-61.228.157.179-1156
       - 🇨🇳 TW-118.167.8.138-1160
       - 🇨🇳 TW-1.164.149.142-1158
       - 🇨🇳 TW-1.162.133.37-1162
       - 🇨🇳 TW-61.228.183.148-1157
-      - 🇨🇳 _TW_台湾->🇺🇸_US_美国
   - name: 韩国
     type: url-test
     url: https://www.google.com/generate_204
     interval: 300
     tolerance: 100
     proxies:
-      - 🇰🇷 KR 2 → tg@nicevpn123
-      - 🇰🇷 KR-3.36.61.58-5605
+      - 🇰🇷 KR-211.201.169.70-1103
       - 🇰🇷 韩国2|@ripaojiedian
-      - 🇰🇷 韩国特殊|@ripaojiedian
       - 🇰🇷 KR-43.202.52.245-0231
       - 🇰🇷 KR-43.201.5.168-0143
       - 🇰🇷 KR-64.110.87.97-0186
