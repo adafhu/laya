@@ -74,7 +74,7 @@ class update():
         if id == 13:
             new_url = datetime.today().strftime('https://hiclash.com/wp-content/uploads/%Y/%m/%Y%m%d.txt')
         if id == 12:
-            new_url = datetime.today().strftime('https://oneclash.cc/wp-content/uploads/%Y/%m/%Y%m%d.txt')
+            new_url = datetime.today().strftime('https://node.oneclash.cc/%Y/%m/%Y%m%d.txt')
         if id == 40:
             new_url = datetime.today().strftime('https://clashnode.com/wp-content/uploads/%Y/%m/%Y%m%d.txt')
         
