@@ -64,7 +64,7 @@ class update():
 
     def change_date(self,id,current_url):
         if id == 36:
-            new_url = datetime.today().strftime('https://nodefree.org/dy/%Y/%m/%Y%m%d.txt')
+            new_url = datetime.today().strftime('https://nodefree.githubrowcontent.com/%Y/%m/%Y%m%d.txt')
         if id == 0:
             new_url = datetime.today().strftime('https://v2rayshare.githubrowcontent.com/%Y/%m/%Y%m%d.txt')
         if id == 1:
@@ -74,9 +74,11 @@ class update():
         if id == 13:
             new_url = datetime.today().strftime('https://hiclash.com/wp-content/uploads/%Y/%m/%Y%m%d.txt')
         if id == 12:
-            new_url = datetime.today().strftime('https://node.oneclash.cc/%Y/%m/%Y%m%d.txt')
+            new_url = datetime.today().strftime('https://oneclash.githubrowcontent.com/%Y/%m/%Y%m%d.txt')
         if id == 40:
-            new_url = datetime.today().strftime('https://clashnode.com/wp-content/uploads/%Y/%m/%Y%m%d.txt')
+            new_url = datetime.today().strftime('https://www.freeclashnode.com/uploads/%Y/%m/3-%Y%m%d.txt')
+        if id == 10:
+            new_url = datetime.today().strftime('https://github.com/sharkDoor/vpn-free-nodes/blob/master/node-list/%Y-%m/%d*.md')
         
         if self.url_updated(new_url):
             return new_url
