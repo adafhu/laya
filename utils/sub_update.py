@@ -66,7 +66,7 @@ class update():
         if id == 36:
             new_url = datetime.today().strftime('https://nodefree.org/dy/%Y/%m/%Y%m%d.txt')
         if id == 0:
-            new_url = datetime.today().strftime('https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.txt')
+            new_url = datetime.today().strftime('https://v2rayshare.githubrowcontent.com/%Y/%m/%Y%m%d.txt')
         if id == 1:
             new_url = datetime.today().strftime('https://freenode.me/wp-content/uploads/%Y/%m/%m%d.txt')
         if id == 7:
